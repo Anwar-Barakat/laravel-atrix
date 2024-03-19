@@ -6,6 +6,7 @@ use App\Http\Controllers\Pages\ContactUsController;
 use App\Http\Controllers\Pages\HomeController;
 use App\Http\Controllers\Pages\ProjectController;
 use App\Http\Controllers\Pages\TeamController;
+use App\Models\Contact;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -31,3 +32,6 @@ Route::get('/teams/basem-abu-dagga',                [TeamController::class, 'sho
 Route::get('/teams/hana-abu-samra',                 [TeamController::class, 'show3'])->name('pages.teams.hana-abu-samra');
 
 Route::resource('contacts',                         ContactController::class);
+
+
+

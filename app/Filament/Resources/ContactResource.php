@@ -34,12 +34,23 @@ class ContactResource extends Resource
 
     protected static ?string $recordTitleAttribute = 'name';
 
+    // badge on the navbar
+    public static function getNavigationBadge(): ?string
+    {
+        return static::getModel()::count();
+    }
+
+    public static function getNavigationBadgeColor(): string|array|null
+    {
+        return static::getModel()::count() > 2 ? 'danger' : 'info';
+    }
+
     public static function form(Form $form): Form
     {
         return $form
             ->schema([
-                Forms\Components\Section::make('User Name')
-                    ->description('Put the user name details in.')
+                Forms\Components\Section::make('Contact Message')
+                    // ->description('The Content of Contact message.')
                     ->schema([
                         Forms\Components\TextInput::make('name')
                             ->required()
