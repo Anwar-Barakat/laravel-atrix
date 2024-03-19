@@ -20,11 +20,11 @@
                         </li>
                         <li class="p_relative d_iblock float_left mr_60 lh_55 pl_25 fs_16">
                             <i class="icon-2"></i>
-                            <p>Call: <a href="tel:123045615523">+1 (230)- 456-155-23</a></p>
+                            <p><a href="tel:123045615523">Post Box 213580, Dubai, UAE</a></p>
                         </li>
                         <li class="p_relative d_iblock float_left lh_55 pl_25 fs_16">
                             <i class="icon-3"></i>
-                            <p>Email: <a href="mailto:sample@example.com">sample@example.com</a></p>
+                            <p>Email: <a href="mailto:info@learningcurve.ae">info@learningcurve.ae</a></p>
                         </li>
                     </ul>
                 </div>

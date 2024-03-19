@@ -24,7 +24,9 @@ Route::get('/about-us',         [AboutUsController::class, 'index'])->name('page
 Route::get('/projects',         [ProjectController::class, 'index'])->name('pages.projects.index');
 Route::get('/projects/show',    [ProjectController::class, 'show'])->name('pages.projects.show');
 
-Route::get('/teams',            [TeamController::class, 'index'])->name('pages.teams.index');
-Route::get('/teams/show',       [TeamController::class, 'show'])->name('pages.teams.show');
+Route::get('/teams',                                [TeamController::class, 'index'])->name('pages.teams.index');
+Route::get('/teams/mohammad-riad-al-merabi',        [TeamController::class, 'show1'])->name('pages.teams.mohammad-riad-al-merabi');
+Route::get('/teams/basem-abu-dagga',                [TeamController::class, 'show2'])->name('pages.teams.basem-abu-dagga');
+Route::get('/teams/hana-abu-samra',                 [TeamController::class, 'show3'])->name('pages.teams.hana-abu-samra');
 
-Route::get('/contact-us',       [ContactUsController::class, 'index'])->name('pages.contact-us');
+Route::get('/contact-us',                           [ContactUsController::class, 'index'])->name('pages.contact-us');

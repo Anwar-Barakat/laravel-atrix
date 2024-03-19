@@ -16,4 +16,17 @@ class TeamController extends Controller
     {
         return view('pages.teams.show');
     }
+
+    public function show1()
+    {
+        return view('pages.teams.show1');
+    }
+    public function show2()
+    {
+        return view('pages.teams.show2');
+    }
+    public function show3()
+    {
+        return view('pages.teams.show3');
+    }
 }

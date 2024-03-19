@@ -17,8 +17,8 @@
                 <div class="image-layer p_absolute" style="background-image:url(assets/images/banner/banner-4.jpg)"></div>
                 <div class="auto-container">
                     <div class="content-box p_relative d_block z_5">
-                        <h2 class="p_relative d_iblock fw_bold fs_80 lh_90 mb_15"><span class="slider-text-anim">Consulting Agency for</span><br /><span class="slider-text-anim">Your Business.</span></h2>
-                        <p class="d_block fs_18 mb_45">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia <br />deserunt mollit anim id est laborum.</p>
+                        <h2 class="p_relative d_iblock fw_bold fs_80 lh_90 mb_15"><span class="slider-text-anim">Nelson Mandela</span></h2>
+                        <p class="d_block fs_18 mb_45">"Education is the most powerful weapon which you can use to change the world."<br /></p>
                         <div class="btn-box clearfix">
                             <a href="index-2.html" class="theme-btn theme-btn-two"><span data-text="Get Started">Get Started</span></a>
                         </div>
@@ -29,8 +29,10 @@
                 <div class="image-layer p_absolute" style="background-image:url(assets/images/banner/banner-5.jpg)"></div>
                 <div class="auto-container">
                     <div class="content-box p_relative d_block z_5">
-                        <h2 class="p_relative d_iblock fw_bold fs_80 lh_90 mb_15"><span class="slider-text-anim">Consulting Agency for</span><br /><span class="slider-text-anim">Your Business.</span></h2>
-                        <p class="d_block fs_18 mb_45">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia <br />deserunt mollit anim id est laborum.</p>
+                        <h2 class="p_relative d_iblock fw_bold fs_80 lh_90 mb_15"><span class="slider-text-anim">Victor Hugo</span><br />
+                            {{-- <span class="slider-text-anim">Your Business.</span> --}}
+                        </h2>
+                        <p class="d_block fs_18 mb_45">"He who opens a school door, closes a prison."<br /></p>
                         <div class="btn-box clearfix">
                             <a href="index-2.html" class="theme-btn theme-btn-two"><span data-text="Get Started">Get Started</span></a>
                         </div>
@@ -41,8 +43,8 @@
                 <div class="image-layer p_absolute" style="background-image:url(assets/images/banner/banner-6.jpg)"></div>
                 <div class="auto-container">
                     <div class="content-box p_relative d_block z_5">
-                        <h2 class="p_relative d_iblock fw_bold fs_80 lh_90 mb_15"><span class="slider-text-anim">Consulting Agency for</span><br /><span class="slider-text-anim">Your Business.</span></h2>
-                        <p class="d_block fs_18 mb_45">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia <br />deserunt mollit anim id est laborum.</p>
+                        <h2 class="p_relative d_iblock fw_bold fs_80 lh_90 mb_15"><span class="slider-text-anim">John F. Kennedy</span></h2>
+                        <p class="d_block fs_18 mb_45">"A child miseducated is a child lost."<br /></p>
                         <div class="btn-box clearfix">
                             <a href="index-2.html" class="theme-btn theme-btn-two"><span data-text="Get Started">Get Started</span></a>
                         </div>

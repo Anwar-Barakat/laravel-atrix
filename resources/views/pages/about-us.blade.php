@@ -11,7 +11,7 @@
             <div class="content-box">
                 <h1 class="d_block fs_60 lh_70 fw_bold mb_10">About Us Simple</h1>
                 <ul class="bread-crumb p_relative d_block mb_8 clearfix">
-                    <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter mr_20"><a href="index.html">Home</a></li>
+                    <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter mr_20"><a href="{{ route('pages.home') }}">Home</a></li>
                     <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter mr_20">Pages</li>
                     <li class="current p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter">About Us Simple</li>
                 </ul>
@@ -33,8 +33,9 @@
                                 <div class="icon-img hidden-icon"><img src="assets/images/icons/hid-icon-108.png" alt=""></div>
                             </div>
                             <div class="text">
-                                <h4 class="d_block fs_20 lh_30 fw_sbold mb_18">Company Vision</h4>
-                                <p class="font_family_poppins">Lorem ipsum dolor sit elit sectur sed eiusm.</p>
+                                <h4 class="d_block fs_20 lh_30 fw_sbold mb_18">LEADERSHIP</h4>
+                                <p class="font_family_poppins">An emphasis on leadership skills as a critical component to the success of the educational journey.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -47,8 +48,9 @@
                                 <div class="icon-img hidden-icon"><img src="assets/images/icons/hid-icon-109.png" alt=""></div>
                             </div>
                             <div class="text">
-                                <h4 class="d_block fs_20 lh_30 fw_sbold mb_18">Strategy Monitoring</h4>
-                                <p class="font_family_poppins">Lorem ipsum dolor sit elit sectur sed eiusm.</p>
+                                <h4 class="d_block fs_20 lh_30 fw_sbold mb_18">COLLABORATION</h4>
+                                <p class="font_family_poppins">A consolidation of the combined energy and effort of ALL stakeholders to deliver phenomenal results.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -61,8 +63,10 @@
                                 <div class="icon-img hidden-icon"><img src="assets/images/icons/hid-icon-110.png" alt=""></div>
                             </div>
                             <div class="text">
-                                <h4 class="d_block fs_20 lh_30 fw_sbold mb_18">Advanced Reporting</h4>
-                                <p class="font_family_poppins">Lorem ipsum dolor sit elit sectur sed eiusm.</p>
+                                <h4 class="d_block fs_20 lh_30 fw_sbold mb_18">CREATIVITY</h4>
+                                <p class="font_family_poppins">
+                                    An ultimate need to excel in a differentiated and innovative approach to education with a passion for change.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -75,8 +79,9 @@
                                 <div class="icon-img hidden-icon"><img src="assets/images/icons/hid-icon-111.png" alt=""></div>
                             </div>
                             <div class="text">
-                                <h4 class="d_block fs_20 lh_30 fw_sbold mb_18">User Experience</h4>
-                                <p class="font_family_poppins">Lorem ipsum dolor sit elit sectur sed eiusm.</p>
+                                <h4 class="d_block fs_20 lh_30 fw_sbold mb_18">CULTURE</h4>
+                                <p class="font_family_poppins">We are better when we bring out the best in us and focus on our strengths. Creating a culture that outlives our legacy.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -97,20 +102,38 @@
                         <div class="content-box p_relative d_block">
                             <div class="sec-title-six p_relative d_block mb_25">
                                 <h4 class="p_relative d_block fs_17 uppercase lh_30 fw_sbold mb_10">About Us</h4>
-                                <h2 class="d_block fs_40 lh_52 fw_bold">We Work Together to Create a Unique Experience.</h2>
+                                <h2 class="d_block fs_40 lh_52 fw_bold">A Unique Experience.</h2>
                             </div>
                             <div class="text p_relative d_block mb_25">
-                                <p class="font_family_poppins">Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod ex tempor incididunt labore dolore magna aliquaenim ad minim veniam quis nostrud exercitation laboris. </p>
+                                <p class="font_family_poppins">
+                                    Learning Curve Holdings, is a specialized educational investments company that was capitalized to cultivate some of the highest quality educational institutions around the globe, and develop a successful footprint in the Mena Region. After carefully scrutinizing the local educational ecosystems, and evaluating the competitive offerings in the region, the Learning Curve identified major opportunities to invest and develop their operations.
+                                </p>
                             </div>
+                            <div class="text p_relative d_block mb_25">
+                                <p class="font_family_poppins">
+                                    The Founder and Executive Director, Basem Abu Dagga comes from a long history of educators, with his late Grandfather proudly among the first four teachers to come to the region in the early 1930's. His mother continued the legacy by actively building the foundation of teaching in one of Kuwait's most prominent schools. Basem leads a team of highly qualified individuals with the same passion for learning.
+                                </p>
+                            </div>
+                            <div class="text p_relative d_block mb_25">
+                                <p class="font_family_poppins">
+                                    Our team of highly qualified experts have been instrumental in developing some of the most successful academic institutions in the region and have had a solid track record in the region spanning across two decades. The all rounded, highly diverse, management team has the profound ability to scrutinize the entire operations of an educational institution. Our team has executed some of the regions most sophisticated technological platforms and systems and developed a full academic educational DNA.
+                                </p>
+                            </div>
+                            <div class="text p_relative d_block mb_25">
+                                <p class="font_family_poppins">
+                                    Our sphere of influence combines Academic and operational expertise that stems from strategy, educational systems, leadership and extends into capital raising and investments, school improvements, academic plans, teaching and learning, management and operations, maximizing efficiencies and developing and executing strategic growth plans.
+                                </p>
+                            </div>
+
                             <ul class="list-style-one clearfix p_relative d_block">
                                 <li class="p_relative d_block fs_16 lh_25 fw_bold pull-left font_family_oxygen pl_25 mb_8">Clients Focused</li>
-                                <li class="p_relative d_block fs_16 lh_25 fw_bold pull-left font_family_oxygen pl_25 mb_8">Oil Change</li>
                                 <li class="p_relative d_block fs_16 lh_25 fw_bold pull-left font_family_oxygen pl_25 mb_8">We Can Save You Money.</li>
                                 <li class="p_relative d_block fs_16 lh_25 fw_bold pull-left font_family_oxygen pl_25 mb_8">Engine Cooling System</li>
                                 <li class="p_relative d_block fs_16 lh_25 fw_bold pull-left font_family_oxygen pl_25">Sertified Repair</li>
                             </ul>
                         </div>
                     </div>
+
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 image-column">
                     <div class="image_block_20">
@@ -126,7 +149,7 @@
                                     <div class="icon-img hidden-icon"><img src="assets/images/icons/hid-icon-96.png" alt=""></div>
                                 </div>
                                 <h4 class="d_block fs_20 lh_30 fw_sbold mb_6">For Emergency</h4>
-                                <h3 class="d_block fw_medium"><a href="tel:0124357689">+012 (435) 7689</a></h3>
+                                <h3 class="d_block fw_medium"><a href="tel:0124357689">+012 (123) 123</a></h3>
                             </div>
                         </div>
                     </div>
@@ -138,7 +161,7 @@
 
 
     <!-- funfact-ten -->
-    <section class="funfact-ten about-page-4 pb_150 text-center p_relative">
+    {{-- <section class="funfact-ten about-page-4 pb_150 text-center p_relative">
         <div class="pattern-layer">
             <div class="pattern-1 p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-186.png);"></div>
             <div class="pattern-2 p_absolute r_170 b_0" style="background-image: url(assets/images/shape/shape-187.png);"></div>
@@ -187,7 +210,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- funfact-ten end -->
 
 
@@ -209,7 +232,7 @@
                             </div>
                             <div class="text">
                                 <h4 class="d_block fs_20 fw_sbold lh_30 mb_16">Make Schedule</h4>
-                                <p class="font_family_poppins">Lorem ipsum dolor sit amet adipelit sed eiusmtempor dolore.</p>
+                                {{-- <p class="font_family_poppins">Lorem ipsum dolor sit amet adipelit sed eiusmtempor dolore.</p> --}}
                             </div>
                         </div>
                     </div>
@@ -224,7 +247,7 @@
                             </div>
                             <div class="text">
                                 <h4 class="d_block fs_20 fw_sbold lh_30 mb_16">Start Discussion</h4>
-                                <p class="font_family_poppins">Lorem ipsum dolor sit amet adipelit sed eiusmtempor dolore.</p>
+                                {{-- <p class="font_family_poppins">Lorem ipsum dolor sit amet adipelit sed eiusmtempor dolore.</p> --}}
                             </div>
                         </div>
                     </div>
@@ -238,7 +261,7 @@
                             </div>
                             <div class="text">
                                 <h4 class="d_block fs_20 fw_sbold lh_30 mb_16">Enjoy Plan</h4>
-                                <p class="font_family_poppins">Lorem ipsum dolor sit amet adipelit sed eiusmtempor dolore.</p>
+                                {{-- <p class="font_family_poppins">Lorem ipsum dolor sit amet adipelit sed eiusmtempor dolore.</p> --}}
                             </div>
                         </div>
                     </div>
@@ -356,6 +379,27 @@
                 <h2 class="d_block fs_40 lh_52 fw_bold">Our Staff Comes from Many <br />Different Disciplines</h2>
             </div>
             <div class="row clearfix">
+
+                <div class="col-lg-4 col-md-6 col-sm-12 team-block">
+                    <div class="team-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        <div class="inner-box p_relative d_block">
+                            <div class="image-box p_relative d_block b_radius_10">
+                                <figure class="image p_relative d_block"><img src="assets/images/team/team-5.jpg" alt=""></figure>
+                                <ul class="social-links-two">
+                                    <li class="p_relative d_iblock"><a href="javascript:;" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li class="p_relative d_iblock"><a href="javascript:;" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-twitter"></i></a></li>
+                                    <li class="p_relative d_iblock"><a href="javascript:;" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="lower-content p_relative d_block ml_40 mr_40">
+                                <div class="inner p_relative d_block b_radius_10 pt_20 pr_30 pb_25 pl_30 b_shadow_6">
+                                    <h4 class="p_relative d_iblock fs_20 lh_30"><a href="{{ route('pages.teams.mohammad-riad-al-merabi') }}">Mohammad Riad Al-merabi</a></h4>
+                                    <span class="designation fs_16 p_relative d_block font_family_poppins">Senior Leadership And Academic Advisor</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 team-block">
                     <div class="team-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box p_relative d_block">
@@ -369,28 +413,8 @@
                             </div>
                             <div class="lower-content p_relative d_block ml_40 mr_40">
                                 <div class="inner p_relative d_block b_radius_10 pt_20 pr_30 pb_25 pl_30 b_shadow_6">
-                                    <h4 class="p_relative d_iblock fs_20 lh_30"><a href="team-details.html">Roger Jones</a></h4>
-                                    <span class="designation fs_16 p_relative d_block font_family_poppins">Designer</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 team-block">
-                    <div class="team-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        <div class="inner-box p_relative d_block">
-                            <div class="image-box p_relative d_block b_radius_10">
-                                <figure class="image p_relative d_block"><img src="assets/images/team/team-6.jpg" alt=""></figure>
-                                <ul class="social-links-two">
-                                    <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-twitter"></i></a></li>
-                                    <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-linkedin-in"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="lower-content p_relative d_block ml_40 mr_40">
-                                <div class="inner p_relative d_block b_radius_10 pt_20 pr_30 pb_25 pl_30 b_shadow_6">
-                                    <h4 class="p_relative d_iblock fs_20 lh_30"><a href="team-details.html">Ann Dowson</a></h4>
-                                    <span class="designation fs_16 p_relative d_block font_family_poppins">Designer</span>
+                                    <h4 class="p_relative d_iblock fs_20 lh_30"><a href="{{ route('pages.teams.basem-abu-dagga') }}">Basem Abu Dagga</a></h4>
+                                    <span class="designation fs_16 p_relative d_block font_family_poppins">Founder And Senior Investment Advisor</span>
                                 </div>
                             </div>
                         </div>
@@ -400,7 +424,7 @@
                     <div class="team-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                         <div class="inner-box p_relative d_block">
                             <div class="image-box p_relative d_block b_radius_10">
-                                <figure class="image p_relative d_block"><img src="assets/images/team/team-7.jpg" alt=""></figure>
+                                <figure class="image p_relative d_block"><img src="assets/images/team/team-5.jpg" alt=""></figure>
                                 <ul class="social-links-two">
                                     <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-facebook-f"></i></a></li>
                                     <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-twitter"></i></a></li>
@@ -409,8 +433,8 @@
                             </div>
                             <div class="lower-content p_relative d_block ml_40 mr_40">
                                 <div class="inner p_relative d_block b_radius_10 pt_20 pr_30 pb_25 pl_30 b_shadow_6">
-                                    <h4 class="p_relative d_iblock fs_20 lh_30"><a href="team-details.html">Nicolas Lawson</a></h4>
-                                    <span class="designation fs_16 p_relative d_block font_family_poppins">Designer</span>
+                                    <h4 class="p_relative d_iblock fs_20 lh_30"><a href="{{ route('pages.teams.hana-abu-samra') }}">Hana Abu Samra</a></h4>
+                                    <span class="designation fs_16 p_relative d_block font_family_poppins">Academic Advisor</span>
                                 </div>
                             </div>
                         </div>
@@ -420,31 +444,4 @@
         </div>
     </section>
     <!-- team-three end -->
-
-
-    <!-- subscribe-one -->
-    <section class="subscribe-one home-16 p_relative pt_30 pb_35">
-        <div class="auto-container">
-            <div class="inner-container p_relative">
-                <div class="row clearfix">
-                    <div class="col-lg-6 col-md-12 col-sm-12 text-column">
-                        <div data-animation-box class="text p_relative d_block">
-                            <h2 data-animation-text class="overlay-anim-white-bg d_block fs_30 lh_40 fw_sbold font_family_inter" data-animation="overlay-animation">Subscribe to Our Newsletter <br />& Stay Update</h2>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12 form-column">
-                        <div class="form-inner p_relative d_block mt_12">
-                            <form action="contact.html" method="post" class="subscribe-form default-form">
-                                <div class="form-group">
-                                    <input type="email" name="email" placeholder="Your email address" required="">
-                                    <button type="submit" class="theme-btn theme-btn-eight">Subscribe Now <i class="icon-4"></i></button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- subscribe-one end -->
 </x-layout>
