@@ -9,7 +9,7 @@
                 <div class="sidebar-info-contents">
                     <div class="content-inner">
                         <div class="logo">
-                            <a href="index.html"><img src="assets/images/logo-19.png" alt="" /></a>
+                            <a href="javascript:;"><img src="assets/images/logo-19.png" alt="" /></a>
                         </div>
                         <div class="text-box">
                             <h4>About Atrix</h4>
@@ -26,10 +26,10 @@
                         <div class="social-inner">
                             <h4>Follow Us On</h4>
                             <ul class="social-links clearfix">
-                                <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-google-plus-g"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="javascript:;"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="javascript:;"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="javascript:;"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="javascript:;"><i class="fab fa-linkedin-in"></i></a></li>
                             </ul>
                         </div>
                     </div>

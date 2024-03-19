@@ -16,7 +16,7 @@
             <div class="content-box">
                 <h1 class="d_block fs_60 lh_70 fw_bold mb_10">Team Member 2</h1>
                 <ul class="bread-crumb p_relative d_block mb_8 clearfix">
-                    <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inte mr_20"><a href="index.html">Home</a></li>
+                    <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inte mr_20"><a href="{{ route('pages.home') }}">Home</a></li>
                     <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inte mr_20">Pages</li>
                     <li class="current p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inte">Team Member 2</li>
                 </ul>

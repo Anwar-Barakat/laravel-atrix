@@ -9,11 +9,11 @@
         <div class="bg-layer p_absolute l_0 parallax_none parallax-bg" data-parallax='{"y": 100}' style="background-image: url(assets/images/background/page-title-3.jpg);"></div>
         <div class="auto-container">
             <div class="content-box">
-                <h1 class="d_block fs_60 lh_70 fw_bold mb_10">About Us Simple</h1>
+                <h1 class="d_block fs_60 lh_70 fw_bold mb_10">About Us</h1>
                 <ul class="bread-crumb p_relative d_block mb_8 clearfix">
                     <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter mr_20"><a href="{{ route('pages.home') }}">Home</a></li>
                     <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter mr_20">Pages</li>
-                    <li class="current p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter">About Us Simple</li>
+                    <li class="current p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inter">About Us</li>
                 </ul>
             </div>
         </div>
@@ -278,24 +278,24 @@
         <div class="auto-container">
             <div class="five-item-carousel owl-carousel owl-theme owl-nav-none owl-dots-none">
                 <div class="clients-logo-box">
-                    <figure class="image"><a href="index.html"><img src="assets/images/clients/clients-logo-16.png" alt=""></a></figure>
-                    <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/clients-logo-16.png" alt=""></a></figure>
+                    <figure class="image"><a href="javascript:;"><img src="assets/images/clients/clients-logo-16.png" alt=""></a></figure>
+                    <figure class="overlay-image"><a href="javascript:;"><img src="assets/images/clients/clients-logo-16.png" alt=""></a></figure>
                 </div>
                 <div class="clients-logo-box">
-                    <figure class="image"><a href="index.html"><img src="assets/images/clients/clients-logo-17.png" alt=""></a></figure>
-                    <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/clients-logo-17.png" alt=""></a></figure>
+                    <figure class="image"><a href="javascript:;"><img src="assets/images/clients/clients-logo-17.png" alt=""></a></figure>
+                    <figure class="overlay-image"><a href="javascript:;"><img src="assets/images/clients/clients-logo-17.png" alt=""></a></figure>
                 </div>
                 <div class="clients-logo-box">
-                    <figure class="image"><a href="index.html"><img src="assets/images/clients/clients-logo-18.png" alt=""></a></figure>
-                    <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/clients-logo-18.png" alt=""></a></figure>
+                    <figure class="image"><a href="javascript:;"><img src="assets/images/clients/clients-logo-18.png" alt=""></a></figure>
+                    <figure class="overlay-image"><a href="javascript:;"><img src="assets/images/clients/clients-logo-18.png" alt=""></a></figure>
                 </div>
                 <div class="clients-logo-box">
-                    <figure class="image"><a href="index.html"><img src="assets/images/clients/clients-logo-19.png" alt=""></a></figure>
-                    <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/clients-logo-19.png" alt=""></a></figure>
+                    <figure class="image"><a href="javascript:;"><img src="assets/images/clients/clients-logo-19.png" alt=""></a></figure>
+                    <figure class="overlay-image"><a href="javascript:;"><img src="assets/images/clients/clients-logo-19.png" alt=""></a></figure>
                 </div>
                 <div class="clients-logo-box">
-                    <figure class="image"><a href="index.html"><img src="assets/images/clients/clients-logo-20.png" alt=""></a></figure>
-                    <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/clients-logo-20.png" alt=""></a></figure>
+                    <figure class="image"><a href="javascript:;"><img src="assets/images/clients/clients-logo-20.png" alt=""></a></figure>
+                    <figure class="overlay-image"><a href="javascript:;"><img src="assets/images/clients/clients-logo-20.png" alt=""></a></figure>
                 </div>
             </div>
         </div>
@@ -406,9 +406,9 @@
                             <div class="image-box p_relative d_block b_radius_10">
                                 <figure class="image p_relative d_block"><img src="assets/images/team/team-5.jpg" alt=""></figure>
                                 <ul class="social-links-two">
-                                    <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-twitter"></i></a></li>
-                                    <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li class="p_relative d_iblock"><a href="javascript:;" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li class="p_relative d_iblock"><a href="javascript:;" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-twitter"></i></a></li>
+                                    <li class="p_relative d_iblock"><a href="javascript:;" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-linkedin-in"></i></a></li>
                                 </ul>
                             </div>
                             <div class="lower-content p_relative d_block ml_40 mr_40">
@@ -426,9 +426,9 @@
                             <div class="image-box p_relative d_block b_radius_10">
                                 <figure class="image p_relative d_block"><img src="assets/images/team/team-5.jpg" alt=""></figure>
                                 <ul class="social-links-two">
-                                    <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-twitter"></i></a></li>
-                                    <li class="p_relative d_iblock"><a href="index-2.html" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li class="p_relative d_iblock"><a href="javascript:;" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li class="p_relative d_iblock"><a href="javascript:;" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-twitter"></i></a></li>
+                                    <li class="p_relative d_iblock"><a href="javascript:;" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-linkedin-in"></i></a></li>
                                 </ul>
                             </div>
                             <div class="lower-content p_relative d_block ml_40 mr_40">

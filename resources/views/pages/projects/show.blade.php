@@ -14,7 +14,7 @@
             <div class="content-box">
                 <h1 class="d_block fs_60 lh_70 fw_bold mb_10">Artboard Studio</h1>
                 <ul class="bread-crumb p_relative d_block mb_8 clearfix">
-                    <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inte mr_20"><a href="index.html">Home</a></li>
+                    <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inte mr_20"><a href="{{ route('pages.home') }}">Home</a></li>
                     <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inte mr_20">Project</li>
                     <li class="current p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inte">Project Details 3</li>
                 </ul>
@@ -39,8 +39,8 @@
                                 <ul class="info-list clearfix">
                                     <li class="p_relative d_block fs_18 font_family_inter mb_12"><span class="d_iblock fw_medium color_black">Client:</span>Robertson</li>
                                     <li class="p_relative d_block fs_18 font_family_inter mb_12"><span class="d_iblock fw_medium color_black">Date:</span>November, 2021</li>
-                                    <li class="p_relative d_block fs_18 font_family_inter mb_12"><span class="d_iblock fw_medium color_black">Client:</span><a href="project-details.html">Business</a>, <a href="project-details.html">Invest</a></li>
-                                    <li class="social-links p_relative d_block fs_18 font_family_inter"><span class="d_iblock fw_medium color_black">Social:</span><a href="project-details.html"><i class="fab fa-facebook-f"></i></a><a href="project-details.html"><i class="fab fa-twitter"></i></a><a href="project-details.html"><i class="fab fa-pinterest-p"></i></a><a href="project-details.html"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li class="p_relative d_block fs_18 font_family_inter mb_12"><span class="d_iblock fw_medium color_black">Client:</span><a href="javascript:;">Business</a>, <a href="javascript:;">Invest</a></li>
+                                    <li class="social-links p_relative d_block fs_18 font_family_inter"><span class="d_iblock fw_medium color_black">Social:</span><a href="javascript:;"><i class="fab fa-facebook-f"></i></a><a href="javascript:;"><i class="fab fa-twitter"></i></a><a href="javascript:;"><i class="fab fa-pinterest-p"></i></a><a href="javascript:;"><i class="fab fa-linkedin-in"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -77,10 +77,10 @@
             </div>
             <div class="nav-btn clearfix">
                 <div class="single-btn prev-btn pull-left">
-                    <a href="project-details.html" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black"><i class="far fa-long-arrow-left"></i>Prev Project</a>
+                    <a href="javascript:;" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black"><i class="far fa-long-arrow-left"></i>Prev Project</a>
                 </div>
                 <div class="single-btn next-btn pull-right">
-                    <a href="project-details.html" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black">Next Project<i class="far fa-long-arrow-right"></i></a>
+                    <a href="javascript:;" class="p_relative d_iblock fs_15 fw_sbold font_family_inter color_black">Next Project<i class="far fa-long-arrow-right"></i></a>
                 </div>
             </div>
         </div>

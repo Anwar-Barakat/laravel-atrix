@@ -20,7 +20,7 @@
                         <h2 class="p_relative d_iblock fw_bold fs_80 lh_90 mb_15"><span class="slider-text-anim">Nelson Mandela</span></h2>
                         <p class="d_block fs_18 mb_45">"Education is the most powerful weapon which you can use to change the world."<br /></p>
                         <div class="btn-box clearfix">
-                            <a href="index-2.html" class="theme-btn theme-btn-two"><span data-text="Get Started">Get Started</span></a>
+                            <a href="javascript:;" class="theme-btn theme-btn-two"><span data-text="Get Started">Get Started</span></a>
                         </div>
                     </div>
                 </div>
@@ -34,7 +34,7 @@
                         </h2>
                         <p class="d_block fs_18 mb_45">"He who opens a school door, closes a prison."<br /></p>
                         <div class="btn-box clearfix">
-                            <a href="index-2.html" class="theme-btn theme-btn-two"><span data-text="Get Started">Get Started</span></a>
+                            <a href="javascript:;" class="theme-btn theme-btn-two"><span data-text="Get Started">Get Started</span></a>
                         </div>
                     </div>
                 </div>
@@ -46,7 +46,7 @@
                         <h2 class="p_relative d_iblock fw_bold fs_80 lh_90 mb_15"><span class="slider-text-anim">John F. Kennedy</span></h2>
                         <p class="d_block fs_18 mb_45">"A child miseducated is a child lost."<br /></p>
                         <div class="btn-box clearfix">
-                            <a href="index-2.html" class="theme-btn theme-btn-two"><span data-text="Get Started">Get Started</span></a>
+                            <a href="javascript:;" class="theme-btn theme-btn-two"><span data-text="Get Started">Get Started</span></a>
                         </div>
                     </div>
                 </div>
@@ -116,18 +116,21 @@
                         <div class="sec-title-two p_relative d_block mr_150">
                             <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">About Us</span>
                             <h2 class="d_block fs_40 fw_bold font_family_oxygen mb_25">The Best Solutions for Best Business</h2>
-                            <p class="fs_18 font_family_oxygen mb_0">Amet consectur adipiscing elit sed eiusmod tempor incididunt labore dolore.</p>
+                            <p class="fs_18 font_family_oxygen mb_0">
+                                Learning Curve Holdings, is a specialized educational investments company that is mandated to cultivate some of the highest quality educational systems around the globe, and develop their footprint in the Mena Region.
+
+                            </p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 text-column p_relative d_block mt_60">
                         <div class="row clearfix">
                             <div class="col-lg-6 col-md-6 col-sm-12 text">
-                                <p class="fs_16 font_family_oxygen mb_25">Lorem ipsum dolor sit amet consect etur adipisicing elit sed do eiusmod tempor incididunt labore et dolore magna aliqua.</p>
-                                <p class="fs_16 font_family_oxygen">Quis nostrud exertation lamco lab oris aliquip comodo.</p>
+                                <p class="fs_16 font_family_oxygen mb_25">After carefully analyzing the educational ecosystem, and evaluating the various providers in the region.</p>
+                                {{-- <p class="fs_16 font_family_oxygen"></p> --}}
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 text">
-                                <p class="fs_16 font_family_oxygen mb_25">Tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud exercitation.</p>
-                                <p class="fs_16 font_family_oxygen">Laboris aliquip ex commodo conse quat duis aute irure dolor in reprehen derit in voluptate.</p>
+                                <p class="fs_16 font_family_oxygen mb_25">The Learning Curve identified several major areas that are very promising.</p>
+                                {{-- <p class="fs_16 font_family_oxygen">Laboris aliquip ex commodo conse quat duis aute irure dolor in reprehen derit in voluptate.</p> --}}
                             </div>
                         </div>
                     </div>
@@ -148,24 +151,24 @@
         <div class="auto-container">
             <div class="five-item-carousel owl-carousel owl-theme owl-nav-none owl-dots-none">
                 <div class="clients-logo-box">
-                    <figure class="image"><a href="index.html"><img src="assets/images/clients/clients-logo-1.png" alt=""></a></figure>
-                    <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/clients-logo-1.png" alt=""></a></figure>
+                    <figure class="image"><a href="javascript:;"><img src="assets/images/clients/clients-logo-1.png" alt=""></a></figure>
+                    <figure class="overlay-image"><a href="javascript:;"><img src="assets/images/clients/clients-logo-1.png" alt=""></a></figure>
                 </div>
                 <div class="clients-logo-box">
-                    <figure class="image"><a href="index.html"><img src="assets/images/clients/clients-logo-2.png" alt=""></a></figure>
-                    <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/clients-logo-2.png" alt=""></a></figure>
+                    <figure class="image"><a href="javascript:;"><img src="assets/images/clients/clients-logo-2.png" alt=""></a></figure>
+                    <figure class="overlay-image"><a href="javascript:;"><img src="assets/images/clients/clients-logo-2.png" alt=""></a></figure>
                 </div>
                 <div class="clients-logo-box">
-                    <figure class="image"><a href="index.html"><img src="assets/images/clients/clients-logo-3.png" alt=""></a></figure>
-                    <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/clients-logo-3.png" alt=""></a></figure>
+                    <figure class="image"><a href="javascript:;"><img src="assets/images/clients/clients-logo-3.png" alt=""></a></figure>
+                    <figure class="overlay-image"><a href="javascript:;"><img src="assets/images/clients/clients-logo-3.png" alt=""></a></figure>
                 </div>
                 <div class="clients-logo-box">
-                    <figure class="image"><a href="index.html"><img src="assets/images/clients/clients-logo-4.png" alt=""></a></figure>
-                    <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/clients-logo-4.png" alt=""></a></figure>
+                    <figure class="image"><a href="javascript:;"><img src="assets/images/clients/clients-logo-4.png" alt=""></a></figure>
+                    <figure class="overlay-image"><a href="javascript:;"><img src="assets/images/clients/clients-logo-4.png" alt=""></a></figure>
                 </div>
                 <div class="clients-logo-box">
-                    <figure class="image"><a href="index.html"><img src="assets/images/clients/clients-logo-5.png" alt=""></a></figure>
-                    <figure class="overlay-image"><a href="index.html"><img src="assets/images/clients/clients-logo-5.png" alt=""></a></figure>
+                    <figure class="image"><a href="javascript:;"><img src="assets/images/clients/clients-logo-5.png" alt=""></a></figure>
+                    <figure class="overlay-image"><a href="javascript:;"><img src="assets/images/clients/clients-logo-5.png" alt=""></a></figure>
                 </div>
             </div>
         </div>
@@ -195,10 +198,10 @@
                                 <div class="icon-shape hero-shape-four p_absolute tran_5"></div>
                                 <div class="overlay-icon p_absolute tran_5" style="background-image: url(assets/images/shape/shape-38.png);"></div>
                             </div>
-                            <h4 class="p_relative d_block fs_20 lh_30 fw_sbold mb_16 font_family_oxygen"><a href="service-details.html">Strategic Consulting <br />Services</a></h4>
+                            <h4 class="p_relative d_block fs_20 lh_30 fw_sbold mb_16 font_family_oxygen"><a href="javascript:;">Strategic Consulting <br />Services</a></h4>
                             <p class="p_relative d_block mb_14 font_family_oxygen">Lorem ipsum dolor sit elit consectur sed eiusmod tempor labore aliquat.</p>
                             <div class="link">
-                                <a href="service-details.html" class="p_relative d_iblock fs_15 lh_25 fw_sbold font_family_oxygen">Learn more<i class="icon-4"></i></a>
+                                <a href="javascript:;" class="p_relative d_iblock fs_15 lh_25 fw_sbold font_family_oxygen">Learn more<i class="icon-4"></i></a>
                             </div>
                         </div>
                     </div>
@@ -212,10 +215,10 @@
                                 <div class="icon-shape hero-shape-four p_absolute tran_5"></div>
                                 <div class="overlay-icon p_absolute tran_5" style="background-image: url(assets/images/shape/shape-38.png);"></div>
                             </div>
-                            <h4 class="p_relative d_block fs_20 lh_30 fw_sbold mb_16 font_family_oxygen"><a href="service-details.html">Best Financial <br />Advice</a></h4>
+                            <h4 class="p_relative d_block fs_20 lh_30 fw_sbold mb_16 font_family_oxygen"><a href="javascript:;">Best Financial <br />Advice</a></h4>
                             <p class="p_relative d_block mb_14 font_family_oxygen">Lorem ipsum dolor sit elit consectur sed eiusmod tempor labore aliquat.</p>
                             <div class="link">
-                                <a href="service-details.html" class="p_relative d_iblock fs_15 lh_25 fw_sbold font_family_oxygen">Learn more<i class="icon-4"></i></a>
+                                <a href="javascript:;" class="p_relative d_iblock fs_15 lh_25 fw_sbold font_family_oxygen">Learn more<i class="icon-4"></i></a>
                             </div>
                         </div>
                     </div>
@@ -229,10 +232,10 @@
                                 <div class="icon-shape hero-shape-four p_absolute tran_5"></div>
                                 <div class="overlay-icon p_absolute tran_5" style="background-image: url(assets/images/shape/shape-38.png);"></div>
                             </div>
-                            <h4 class="p_relative d_block fs_20 lh_30 fw_sbold mb_16 font_family_oxygen"><a href="service-details.html">Investment <br />& Management</a></h4>
+                            <h4 class="p_relative d_block fs_20 lh_30 fw_sbold mb_16 font_family_oxygen"><a href="javascript:;">Investment <br />& Management</a></h4>
                             <p class="p_relative d_block mb_14 font_family_oxygen">Lorem ipsum dolor sit elit consectur sed eiusmod tempor labore aliquat.</p>
                             <div class="link">
-                                <a href="service-details.html" class="p_relative d_iblock fs_15 lh_25 fw_sbold font_family_oxygen">Learn more<i class="icon-4"></i></a>
+                                <a href="javascript:;" class="p_relative d_iblock fs_15 lh_25 fw_sbold font_family_oxygen">Learn more<i class="icon-4"></i></a>
                             </div>
                         </div>
                     </div>
@@ -316,14 +319,14 @@
                                 <div class="overlay-pattern-2 p_absolute l_0" style="background-image: url(assets/images/shape/shape-44.png);"></div>
                                 <figure class="image p_relative d_block"><img src="assets/images/team/team-1.jpg" alt=""></figure>
                                 <ul class="social-links">
-                                    <li><a href="index-2.html"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-pinterest-p"></i></a></li>
+                                    <li><a href="javascript:;"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="javascript:;"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="javascript:;"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="javascript:;"><i class="fab fa-pinterest-p"></i></a></li>
                                 </ul>
                             </div>
                             <div class="lower-content p_relative d_block pt_20 pr_30 pb_25 pl_30">
-                                <h4 class="p_relative d_iblock fs_20 lh_30 font_family_oxygen fw_bold pl_30"><a href="team-details.html">Roger Jones</a></h4>
+                                <h4 class="p_relative d_iblock fs_20 lh_30 font_family_oxygen fw_bold pl_30"><a href="javascript:;">Roger Jones</a></h4>
                                 <span class="designation fs_16 p_relative d_block">Designer</span>
                             </div>
                         </div>
@@ -337,14 +340,14 @@
                                 <div class="overlay-pattern-2 p_absolute l_0" style="background-image: url(assets/images/shape/shape-44.png);"></div>
                                 <figure class="image p_relative d_block"><img src="assets/images/team/team-2.jpg" alt=""></figure>
                                 <ul class="social-links">
-                                    <li><a href="index-2.html"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-pinterest-p"></i></a></li>
+                                    <li><a href="javascript:;"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="javascript:;"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="javascript:;"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="javascript:;"><i class="fab fa-pinterest-p"></i></a></li>
                                 </ul>
                             </div>
                             <div class="lower-content p_relative d_block pt_20 pr_30 pb_25 pl_30">
-                                <h4 class="p_relative d_iblock fs_20 lh_30 font_family_oxygen fw_bold pl_30"><a href="team-details.html">Ann Dowson</a></h4>
+                                <h4 class="p_relative d_iblock fs_20 lh_30 font_family_oxygen fw_bold pl_30"><a href="javascript:;">Ann Dowson</a></h4>
                                 <span class="designation fs_16 p_relative d_block">Designer</span>
                             </div>
                         </div>
@@ -358,14 +361,14 @@
                                 <div class="overlay-pattern-2 p_absolute l_0" style="background-image: url(assets/images/shape/shape-44.png);"></div>
                                 <figure class="image p_relative d_block"><img src="assets/images/team/team-3.jpg" alt=""></figure>
                                 <ul class="social-links">
-                                    <li><a href="index-2.html"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-pinterest-p"></i></a></li>
+                                    <li><a href="javascript:;"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="javascript:;"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="javascript:;"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="javascript:;"><i class="fab fa-pinterest-p"></i></a></li>
                                 </ul>
                             </div>
                             <div class="lower-content p_relative d_block pt_20 pr_30 pb_25 pl_30">
-                                <h4 class="p_relative d_iblock fs_20 lh_30 font_family_oxygen fw_bold pl_30"><a href="team-details.html">Nicolas Lawson</a></h4>
+                                <h4 class="p_relative d_iblock fs_20 lh_30 font_family_oxygen fw_bold pl_30"><a href="javascript:;">Nicolas Lawson</a></h4>
                                 <span class="designation fs_16 p_relative d_block">Designer</span>
                             </div>
                         </div>
@@ -379,14 +382,14 @@
                                 <div class="overlay-pattern-2 p_absolute l_0" style="background-image: url(assets/images/shape/shape-44.png);"></div>
                                 <figure class="image p_relative d_block"><img src="assets/images/team/team-4.jpg" alt=""></figure>
                                 <ul class="social-links">
-                                    <li><a href="index-2.html"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-pinterest-p"></i></a></li>
+                                    <li><a href="javascript:;"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="javascript:;"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="javascript:;"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="javascript:;"><i class="fab fa-pinterest-p"></i></a></li>
                                 </ul>
                             </div>
                             <div class="lower-content p_relative d_block pt_20 pr_30 pb_25 pl_30">
-                                <h4 class="p_relative d_iblock fs_20 lh_30 font_family_oxygen fw_bold pl_30"><a href="team-details.html">Erik Genie</a></h4>
+                                <h4 class="p_relative d_iblock fs_20 lh_30 font_family_oxygen fw_bold pl_30"><a href="javascript:;">Erik Genie</a></h4>
                                 <span class="designation fs_16 p_relative d_block">Designer</span>
                             </div>
                         </div>
@@ -500,8 +503,8 @@
                             <figure class="image-box"><img src="assets/images/project/project-1.jpg" alt=""></figure>
                             <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                                 <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="project-details.html">Artboard Studio</a></h4>
-                                <div class="link p_absolute b_20 r_30"><a href="project-details.html" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="javascript:;">Artboard Studio</a></h4>
+                                <div class="link p_absolute b_20 r_30"><a href="javascript:;" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -510,8 +513,8 @@
                             <figure class="image-box"><img src="assets/images/project/project-2.jpg" alt=""></figure>
                             <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                                 <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="project-details.html">Artboard Studio</a></h4>
-                                <div class="link p_absolute b_20 r_30"><a href="project-details.html" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="javascript:;">Artboard Studio</a></h4>
+                                <div class="link p_absolute b_20 r_30"><a href="javascript:;" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -520,8 +523,8 @@
                             <figure class="image-box"><img src="assets/images/project/project-3.jpg" alt=""></figure>
                             <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                                 <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="project-details.html">Artboard Studio</a></h4>
-                                <div class="link p_absolute b_20 r_30"><a href="project-details.html" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="javascript:;">Artboard Studio</a></h4>
+                                <div class="link p_absolute b_20 r_30"><a href="javascript:;" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -530,8 +533,8 @@
                             <figure class="image-box"><img src="assets/images/project/project-4.jpg" alt=""></figure>
                             <div class="content-box p_absolute l_0 d_block pl_30 pr_30 pb_30">
                                 <div class="shape p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-47.png);"></div>
-                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="project-details.html">Artboard Studio</a></h4>
-                                <div class="link p_absolute b_20 r_30"><a href="project-details.html" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
+                                <h4 class="d_block fs_20 lh_30 font_family_oxygen"><a href="javascript:;">Artboard Studio</a></h4>
+                                <div class="link p_absolute b_20 r_30"><a href="javascript:;" class="p_relative d_iblock w_50 h_50 lh_50 text-center b_radius_50 fs_14"><i class="icon-4"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -744,7 +747,7 @@
             <div class="inner-box p_relative z_1">
                 <h2 class="d_block fs_40 fw_bold mb_20">Need Help Finding The Best Solution To Operate Your Business?</h2>
                 <p class="fs_17 mb_35">We help our clients succeed by creating brand identities, digital <br />experiences, and print materials that communicate clearly.</p>
-                <a href="index-2.html" class="theme-btn theme-btn-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms"><span data-text="Get Started">Get Started</span></a>
+                <a href="javascript:;" class="theme-btn theme-btn-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms"><span data-text="Get Started">Get Started</span></a>
             </div>
         </div>
     </section>
@@ -774,20 +777,20 @@
                     <div class="news-block-one wow slideInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box p_relative d_block b_radius_10 b_shadow_6">
                             <div class="image-box p_relative d_block">
-                                <figure class="image p_relative d_block"><a href="blog-details.html"><img src="assets/images/news/news-1.jpg" alt=""></a></figure>
+                                <figure class="image p_relative d_block"><a href="javascript:;"><img src="assets/images/news/news-1.jpg" alt=""></a></figure>
                                 <div class="post-date-two p_absolute l_30 t_30 w_60 b_radius_5 centred pt_10 pb_10">
                                     <h4 class="fs_20 font_family_oxygen fw_bold lh_20">20 <span class="d_block">Oct</span></h4>
                                 </div>
                             </div>
                             <div class="lower-content p_relative d_block pt_30 pr_30 pb_40 pl_40">
                                 <ul class="post-info clearfix p_relative d_block mb_5">
-                                    <li class="p_relative d_iblock float_left mr_30 fs_16"><a href="blog-details.html">Ashley Bronks</a></li>
+                                    <li class="p_relative d_iblock float_left mr_30 fs_16"><a href="javascript:;">Ashley Bronks</a></li>
                                     <li class="p_relative d_iblock float_left fs_16">10 mins Read</li>
                                 </ul>
-                                <h4 class="d_block fs_20 lh_30 mb_15"><a href="blog-details.html">Unsatiable Entreaties May Collecting Power.</a></h4>
+                                <h4 class="d_block fs_20 lh_30 mb_15"><a href="javascript:;">Unsatiable Entreaties May Collecting Power.</a></h4>
                                 <p class="d_block mb_20">Lorem ipsum dolor sit amet consectur adipisicing sed.</p>
                                 <div class="btn-box">
-                                    <a href="blog-details.html" class="theme-btn theme-btn-two"><span data-text="Learn More">Learn More</span></a>
+                                    <a href="javascript:;" class="theme-btn theme-btn-two"><span data-text="Learn More">Learn More</span></a>
                                 </div>
                             </div>
                         </div>
@@ -797,20 +800,20 @@
                     <div class="news-block-one wow slideInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div class="inner-box p_relative d_block b_radius_10 b_shadow_6">
                             <div class="image-box p_relative d_block">
-                                <figure class="image p_relative d_block"><a href="blog-details.html"><img src="assets/images/news/news-2.jpg" alt=""></a></figure>
+                                <figure class="image p_relative d_block"><a href="javascript:;"><img src="assets/images/news/news-2.jpg" alt=""></a></figure>
                                 <div class="post-date-two p_absolute l_30 t_30 w_60 b_radius_5 centred pt_10 pb_10">
                                     <h4 class="fs_20 font_family_oxygen fw_bold lh_20">15 <span class="d_block">Oct</span></h4>
                                 </div>
                             </div>
                             <div class="lower-content p_relative d_block pt_30 pr_30 pb_40 pl_40">
                                 <ul class="post-info clearfix p_relative d_block mb_5">
-                                    <li class="p_relative d_iblock float_left mr_30 fs_16"><a href="blog-details.html">Ashley Bronks</a></li>
+                                    <li class="p_relative d_iblock float_left mr_30 fs_16"><a href="javascript:;">Ashley Bronks</a></li>
                                     <li class="p_relative d_iblock float_left fs_16">10 mins Read</li>
                                 </ul>
-                                <h4 class="d_block fs_20 lh_30 mb_15"><a href="blog-details.html">Need Help Finding The Best Solution.</a></h4>
+                                <h4 class="d_block fs_20 lh_30 mb_15"><a href="javascript:;">Need Help Finding The Best Solution.</a></h4>
                                 <p class="d_block mb_20">Lorem ipsum dolor sit amet consectur adipisicing sed.</p>
                                 <div class="btn-box">
-                                    <a href="blog-details.html" class="theme-btn theme-btn-two"><span data-text="Learn More">Learn More</span></a>
+                                    <a href="javascript:;" class="theme-btn theme-btn-two"><span data-text="Learn More">Learn More</span></a>
                                 </div>
                             </div>
                         </div>
@@ -820,20 +823,20 @@
                     <div class="news-block-one wow slideInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="inner-box p_relative d_block b_radius_10 b_shadow_6">
                             <div class="image-box p_relative d_block">
-                                <figure class="image p_relative d_block"><a href="blog-details.html"><img src="assets/images/news/news-3.jpg" alt=""></a></figure>
+                                <figure class="image p_relative d_block"><a href="javascript:;"><img src="assets/images/news/news-3.jpg" alt=""></a></figure>
                                 <div class="post-date-two p_absolute l_30 t_30 w_60 b_radius_5 centred pt_10 pb_10">
                                     <h4 class="fs_20 font_family_oxygen fw_bold lh_20">13 <span class="d_block">Oct</span></h4>
                                 </div>
                             </div>
                             <div class="lower-content p_relative d_block pt_30 pr_30 pb_40 pl_40">
                                 <ul class="post-info clearfix p_relative d_block mb_5">
-                                    <li class="p_relative d_iblock float_left mr_30 fs_16"><a href="blog-details.html">Ashley Bronks</a></li>
+                                    <li class="p_relative d_iblock float_left mr_30 fs_16"><a href="javascript:;">Ashley Bronks</a></li>
                                     <li class="p_relative d_iblock float_left fs_16">10 mins Read</li>
                                 </ul>
-                                <h4 class="d_block fs_20 lh_30 mb_15"><a href="blog-details.html">Make Your Dream Come True & Great Number</a></h4>
+                                <h4 class="d_block fs_20 lh_30 mb_15"><a href="javascript:;">Make Your Dream Come True & Great Number</a></h4>
                                 <p class="d_block mb_20">Lorem ipsum dolor sit amet consectur adipisicing sed.</p>
                                 <div class="btn-box">
-                                    <a href="blog-details.html" class="theme-btn theme-btn-two"><span data-text="Learn More">Learn More</span></a>
+                                    <a href="javascript:;" class="theme-btn theme-btn-two"><span data-text="Learn More">Learn More</span></a>
                                 </div>
                             </div>
                         </div>
@@ -844,47 +847,4 @@
     </section>
     <!-- news-two end -->
 
-
-    <!-- subscribe-one -->
-    <section class="subscribe-one p_relative">
-        <div>
-            <svg class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-                <defs>
-                    <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-                </defs>
-                <g class="parallax">
-                    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(247,247,247,0.7" />
-                    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(247,247,247,0.5)" />
-                    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(247,247,247,0.3)" />
-                    <use xlink:href="#gentle-wave" x="48" y="7" fill="#f7f7f7" />
-                </g>
-            </svg>
-        </div>
-        <div class="auto-container">
-            <div class="inner-container p_relative d_block pl_100 pt_60 pr_100 pb_60 b_radius_5">
-                <div class="pattern-layer">
-                    <div class="pattern-1 p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-50.png);"></div>
-                    <div class="pattern-2 p_absolute t_0 r_0" style="background-image: url(assets/images/shape/shape-51.png);"></div>
-                </div>
-                <div class="row clearfix">
-                    <div class="col-lg-6 col-md-12 col-sm-12 text-column">
-                        <div class="text p_relative d_block mr_30">
-                            <h2 class="d_block fs_30 lh_40 fw_bold font_family_oxygen">Join Us & Increase Your Business.</h2>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12 form-column">
-                        <div class="form-inner p_relative d_block mt_18">
-                            <form action="contact.html" method="post" class="subscribe-form default-form">
-                                <div class="form-group">
-                                    <input type="email" name="email" placeholder="Your email address" required="">
-                                    <button type="submit" class="theme-btn">Subscribe<span>Subscribe</span></button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- subscribe-one -->
 </x-layout>

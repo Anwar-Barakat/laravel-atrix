@@ -8,7 +8,7 @@
             <div class="row clearfix">
                 <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                     <div class="footer-widget about-widget wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <figure class="footer-logo p_relative d_block mb_35"><a href="index-3.html"><img src="assets/images/logo-20.png" alt=""></a></figure>
+                        <figure class="footer-logo p_relative d_block mb_35"><a href="javascript:;"><img src="assets/images/logo-20.png" alt=""></a></figure>
                         <div class="text">
                             <p>Learning Curve Holdings, is a specialized educational investments company that is mandated to cultivate some of the highest quality educational systems around the globe, and develop their footprint in the Mena Region. After carefully analyzing the educational ecosystem, and evaluating the various providers in the region, the Learning Curve identified several major areas that are very promising. </p>
                         </div>
@@ -25,7 +25,7 @@
                                 <li><a href="{{ route('pages.about-us') }}">About Us</a></li>
                                 <li><a href="{{ route('pages.projects.index') }}">Projects</a></li>
                                 <li><a href="{{ route('pages.teams.index') }}">Team</a></li>
-                                <li><a href="{{ route('pages.contact-us') }}">Contact Us</a></li>
+                                <li><a href="{{ route('contacts.index') }}">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -37,12 +37,11 @@
                         </div>
                         <div class="widget-content">
                             <ul class="links-list clearfix">
-                                <li><a href="index.html">About</a></li>
-                                <li><a href="index.html">Services</a></li>
-                                <li><a href="index.html">Job</a></li>
-                                <li><a href="index.html">opportunities</a></li>
-                                <li><a href="index.html">Location</a></li>
-                                <li><a href="index.html">Article</a></li>
+                                <li><a href="javascript:;">Service</a></li>
+                                <li><a href="javascript:;">Service</a></li>
+                                <li><a href="javascript:;">Service</a></li>
+                                <li><a href="javascript:;">Service</a></li>
+                                <li><a href="javascript:;">Service</a></li>
                             </ul>
                         </div>
                     </div>

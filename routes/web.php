@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Pages\AboutUsController;
+use App\Http\Controllers\Pages\ContactController;
 use App\Http\Controllers\Pages\ContactUsController;
 use App\Http\Controllers\Pages\HomeController;
 use App\Http\Controllers\Pages\ProjectController;
@@ -29,4 +30,4 @@ Route::get('/teams/mohammad-riad-al-merabi',        [TeamController::class, 'sho
 Route::get('/teams/basem-abu-dagga',                [TeamController::class, 'show2'])->name('pages.teams.basem-abu-dagga');
 Route::get('/teams/hana-abu-samra',                 [TeamController::class, 'show3'])->name('pages.teams.hana-abu-samra');
 
-Route::get('/contact-us',                           [ContactUsController::class, 'index'])->name('pages.contact-us');
+Route::resource('contacts',                         ContactController::class);

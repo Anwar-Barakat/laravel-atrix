@@ -46,9 +46,9 @@
                                 <li class="p_relative d_block fs_16 font_family_poppins"><strong class="fw_sbold color_black p_relative d_iblock">Phone:</strong><a href="tel:23055873407">+2(305) 587-3407</a></li>
                             </ul>
                             <ul class="social-links clearfix">
-                                <li class="p_relative d_iblock pull-left mr_20"><a href="team-details.html" class="p_relative d_iblock w_45 h_45 lh_45 centred b_radius_50 fs_15"><i class="fab fa-facebook-f"></i></a></li>
-                                <li class="p_relative d_iblock pull-left mr_20"><a href="team-details.html" class="p_relative d_iblock w_45 h_45 lh_45 centred b_radius_50 fs_15"><i class="fab fa-twitter"></i></a></li>
-                                <li class="p_relative d_iblock pull-left"><a href="team-details.html" class="p_relative d_iblock w_45 h_45 lh_45 centred b_radius_50 fs_15"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li class="p_relative d_iblock pull-left mr_20"><a href="javascript:;" class="p_relative d_iblock w_45 h_45 lh_45 centred b_radius_50 fs_15"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="p_relative d_iblock pull-left mr_20"><a href="javascript:;" class="p_relative d_iblock w_45 h_45 lh_45 centred b_radius_50 fs_15"><i class="fab fa-twitter"></i></a></li>
+                                <li class="p_relative d_iblock pull-left"><a href="javascript:;" class="p_relative d_iblock w_45 h_45 lh_45 centred b_radius_50 fs_15"><i class="fab fa-google-plus-g"></i></a></li>
                             </ul>
                         </div>
                     </div>

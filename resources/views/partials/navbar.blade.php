@@ -7,10 +7,10 @@
                 <div class="top-left pull-left">
                     <ul class="social-links clearfix">
                         <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55">Follow Us:</li>
-                        <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="index.html" class="p_relative d_iblock fs_16"><i class="fab fa-facebook-f"></i></a></li>
-                        <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="index.html" class="p_relative d_iblock fs_16"><i class="fab fa-twitter"></i></a></li>
-                        <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="index.html" class="p_relative d_iblock fs_16"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li class="p_relative d_iblock fs_16 float_left lh_55"><a href="index.html" class="p_relative d_iblock fs_16"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="javascript:;" class="p_relative d_iblock fs_16"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="javascript:;" class="p_relative d_iblock fs_16"><i class="fab fa-twitter"></i></a></li>
+                        <li class="p_relative d_iblock fs_16 float_left mr_25 lh_55"><a href="javascript:;" class="p_relative d_iblock fs_16"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li class="p_relative d_iblock fs_16 float_left lh_55"><a href="javascript:;" class="p_relative d_iblock fs_16"><i class="fab fa-google-plus-g"></i></a></li>
                     </ul>
                 </div>
                 <div class="top-right pull-right">
@@ -36,7 +36,7 @@
         <div class="auto-container">
             <div class="outer-box">
                 <div class="logo-box">
-                    <figure class="logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></figure>
+                    <figure class="logo"><a href="javascript:;"><img src="assets/images/logo.png" alt=""></a></figure>
                 </div>
                 <div class="menu-area clearfix">
                     <!--Mobile Navigation Toggler-->
@@ -57,32 +57,32 @@
                                 <li class="dropdown {{ request()->routeIs('pages.projects.index') ? 'current' : '' }}">
                                     <a href="{{ route('pages.projects.index') }}">Projects</a>
                                     {{-- <ul>
-                                        <li><a href="project.html">Project Style 1</a></li>
-                                        <li><a href="project-2.html">Project Style 2</a></li>
-                                        <li><a href="project-3.html">Project Style 3</a></li>
-                                        <li><a href="project-4.html">Project Style 4</a></li>
-                                        <li><a href="project-5.html">Project Style 5</a></li>
-                                        <li><a href="project-6.html">Project Style 6</a></li>
-                                        <li class="dropdown"><a href="index.html">Project Details</a>
+                                        <li><a href="javascript:;">Project Style 1</a></li>
+                                        <li><a href="javascript:;">Project Style 2</a></li>
+                                        <li><a href="javascript:;">Project Style 3</a></li>
+                                        <li><a href="javascript:;">Project Style 4</a></li>
+                                        <li><a href="javascript:;">Project Style 5</a></li>
+                                        <li><a href="javascript:;">Project Style 6</a></li>
+                                        <li class="dropdown"><a href="javascript:;">Project Details</a>
                                             <ul>
-                                                <li><a href="project-details.html">Project Details 1</a></li>
-                                                <li><a href="project-details-2.html">Project Details 2</a></li>
-                                                <li><a href="project-details-3.html">Project Details 3</a></li>
-                                                <li><a href="project-details-4.html">Project Details 4</a></li>
-                                                <li><a href="project-details-5.html">Project Details 5</a></li>
+                                                <li><a href="javascript:;">Project Details 1</a></li>
+                                                <li><a href="javascript:;">Project Details 2</a></li>
+                                                <li><a href="javascript:;">Project Details 3</a></li>
+                                                <li><a href="javascript:;">Project Details 4</a></li>
+                                                <li><a href="javascript:;">Project Details 5</a></li>
                                             </ul>
                                         </li>
                                     </ul> --}}
                                 </li>
                                 <li class="dropdown {{ request()->routeIs('pages.teams.index') ? 'current' : '' }}"><a href="{{ route('pages.teams.index') }}">Team</a></li>
-                                <li class="dropdown {{ request()->routeIs('pages.contact-us') ? 'current' : '' }}"><a href="{{ route('pages.contact-us') }}">Contact Us</a>
+                                <li class="dropdown {{ request()->routeIs('contacts.index') ? 'current' : '' }}"><a href="{{ route('contacts.index') }}">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
                     </nav>
                 </div>
                 <div class="btn-box">
-                    <a href="index.html" class="theme-btn theme-btn-one">Get A Quote<i class="icon-4"></i></a>
+                    <a href="javascript:;" class="theme-btn theme-btn-one">Get A Quote<i class="icon-4"></i></a>
                 </div>
             </div>
         </div>
@@ -93,7 +93,7 @@
         <div class="auto-container">
             <div class="outer-box">
                 <div class="logo-box">
-                    <figure class="logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></figure>
+                    <figure class="logo"><a href="javascript:;"><img src="assets/images/logo.png" alt=""></a></figure>
                 </div>
                 <div class="menu-area clearfix">
                     <nav class="main-menu clearfix">
@@ -101,7 +101,7 @@
                     </nav>
                 </div>
                 <div class="btn-box">
-                    <a href="index.html" class="theme-btn theme-btn-one">Get A Quote<i class="icon-4"></i></a>
+                    <a href="javascript:;" class="theme-btn theme-btn-one">Get A Quote<i class="icon-4"></i></a>
                 </div>
             </div>
         </div>
