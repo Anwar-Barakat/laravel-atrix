@@ -183,7 +183,7 @@
             <div class="pattern-2 p_absolute r_0 b_0" data-parallax='{"x": 100}' style="background-image: url(assets/images/shape/shape-40.png);"></div>
         </div>
         <div class="auto-container">
-            <div class="sec-title-two p_relative d_block mb_50">
+            <div class="sec-title-two p_relative d_block mb_50 text-center">
                 <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">SERVICES</span><br />
                 <h2 class="d_block fs_40 fw_bold font_family_oxygen mb_35">Great Business Solutions <br />System</h2><br />
                 <p class="fs_18 font_family_oxygen mb_0">Amet consectur adipiscing elit sed eiusmod ex tempor incididunt <br />labore dolore magna aliquaenim ad minim veniam.</p>
@@ -246,185 +246,129 @@
     <!-- service-two end -->
 
 
-    <!-- chooseus-two -->
-    <section class="chooseus-two p_relative">
-        <div class="outer-container clearfix">
-            <div class="bg-layer p_absolute l_0 t_0" style="background-image: url(assets/images/background/chooseus-bg.jpg);"></div>
-            <div class="content-inner p_relative d_block pt_150 pr_100 pb_150 pl_100">
-                <div class="pattern-layer">
-                    <div class="pattern-1 p_absolute t_0 r_0" style="background-image: url(assets/images/shape/shape-41.png);"></div>
-                    <div class="pattern-2 p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-42.png);"></div>
-                </div>
-                <div class="content-box p_relative d_block pl_15 pr_15">
-                    <div class="sec-title-two p_relative d_block mb_30 light">
-                        <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">CHOOSE Atrix</span>
-                        <h2 class="d_block fs_40 fw_bold font_family_oxygen mb_20">Few Reasons Why You Should<br /> Choose Us</h2><br />
-                        <p class="fs_18 font_family_oxygen mb_0">Fruit is their fill meat, hath abundantly place meat don't stars so & which<br /> signs third second after seasons under.</p>
-                    </div>
-                    <div class="inner-box">
-                        <div class="row clearfix">
-                            <div class="col-lg-6 col-md-6 col-sm-12 single-column">
-                                <div class="single-item p_relative d_block pl_80 mb_19">
-                                    <div class="icon-box p_absolute l_0 t_3 w_50 h_50 lh_50 text-center b_radius_50">
-                                        <div class="icon p_relative d_iblock g_color_2"><i class="icon-15"></i></div>
-                                        <div class="icon-img hidden-icon d_iblock"><img src="assets/images/icons/hid-icon-18.png" alt=""></div>
-                                    </div>
-                                    <h4 class="d_block fs_20 lh_30 mb_6 font_family_oxygen">Innovative Business</h4>
-                                    <p class="mb_0 fs_16 font_family_oxygen">Lorem ipsum dolor sit elit consectur sed tempor..</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 single-column">
-                                <div class="single-item p_relative d_block pl_80 mb_19">
-                                    <div class="icon-box p_absolute l_0 t_3 w_50 h_50 lh_50 text-center b_radius_50">
-                                        <div class="icon p_relative d_iblock g_color_2"><i class="icon-15"></i></div>
-                                        <div class="icon-img hidden-icon d_iblock"><img src="assets/images/icons/hid-icon-18.png" alt=""></div>
-                                    </div>
-                                    <h4 class="d_block fs_20 lh_30 mb_6 font_family_oxygen">Audiance Analysis</h4>
-                                    <p class="mb_0 fs_16 font_family_oxygen">Lorem ipsum dolor sit elit consectur sed tempor..</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 single-column">
-                                <div class="single-item p_relative d_block pl_80">
-                                    <div class="icon-box p_absolute l_0 t_3 w_50 h_50 lh_50 text-center b_radius_50">
-                                        <div class="icon p_relative d_iblock g_color_2"><i class="icon-15"></i></div>
-                                        <div class="icon-img hidden-icon d_iblock"><img src="assets/images/icons/hid-icon-18.png" alt=""></div>
-                                    </div>
-                                    <h4 class="d_block fs_20 lh_30 mb_6 font_family_oxygen">Expert Marketing</h4>
-                                    <p class="mb_0 fs_16 font_family_oxygen">Lorem ipsum dolor sit elit consectur sed tempor..</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- chooseus-two end -->
 
-
-    <!-- team-one -->
-    <section class="team-one p_relative sec-pad">
+    <!-- service-21 -->
+    <section class="service-21 p_relative sec-pad bg-color-1">
         <div class="auto-container">
-            <div class="sec-title-two p_relative d_block mb_50 centred">
-                <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">Our Teem</span><br />
-                <h2 class="d_block fs_40 fw_bold font_family_oxygen mb_35">Great Business Solutions <br />System</h2><br />
-                <p class="fs_18 font_family_oxygen mb_0">Amet consectur adipiscing elit sed eiusmod ex tempor incididunt <br />labore dolore magna aliquaenim ad minim veniam.</p>
+            <div class="sec-title-two p_relative d_block mb_50 text-center">
+                <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">SERVICES</span><br />
+                <h2 class="d_block fs_40 fw_bold font_family_oxygen mb_35">Our PE Capabilities</h2><br />
+                {{-- <p class="fs_18 font_family_oxygen mb_0">Amet consectur adipiscing elit sed eiusmod ex tempor incididunt <br />labore dolore magna aliquaenim ad minim veniam.</p> --}}
             </div>
-            <div class="row clearfix">
-                <div class="col-lg-3 col-md-6 col-sm-12 team-block">
-                    <div class="team-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <div class="inner-box p_relative d_block b_radius_5 b_shadow_6">
-                            <div class="image-box p_relative d_block">
-                                <div class="overlay-pattern-1 p_absolute r_0" style="background-image: url(assets/images/shape/shape-43.png);"></div>
-                                <div class="overlay-pattern-2 p_absolute l_0" style="background-image: url(assets/images/shape/shape-44.png);"></div>
-                                <figure class="image p_relative d_block"><img src="assets/images/team/team-1.jpg" alt=""></figure>
-                                <ul class="social-links">
-                                    <li><a href="javascript:;"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="javascript:;"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="javascript:;"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="javascript:;"><i class="fab fa-pinterest-p"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="lower-content p_relative d_block pt_20 pr_30 pb_25 pl_30">
-                                <h4 class="p_relative d_iblock fs_20 lh_30 font_family_oxygen fw_bold pl_30"><a href="javascript:;">Roger Jones</a></h4>
-                                <span class="designation fs_16 p_relative d_block">Designer</span>
-                            </div>
+            <div class="tabs-box">
+                <div class="row clearfix">
+                    <div class="col-lg-4 col-md-12 col-sm-12 btn-column">
+                        <div class="tab-btn-box p_relative d_block mr_50">
+                            <ul class="tab-btns tab-buttons clearfix">
+                                <li class="tab-btn active-btn" data-tab="#tab-1">
+                                    <div class="icon-box p_absolute fs_30 color_black tran_5 l_30"><i class="icon-11"></i></div>
+                                    <h6 class="fs_16 tran_5 fw_sbold">Strategic Advisory</h6>
+                                </li>
+                                <li class="tab-btn" data-tab="#tab-2">
+                                    <div class="icon-box p_absolute fs_30 color_black tran_5 l_30"><i class="icon-12"></i></div>
+                                    <h6 class="fs_16 tran_5 fw_sbold">Investment Advisory</h6>
+                                </li>
+                                <li class="tab-btn" data-tab="#tab-3">
+                                    <div class="icon-box p_absolute fs_30 color_black tran_5 l_30"><i class="icon-13"></i></div>
+                                    <h6 class="fs_16 tran_5 fw_sbold">Pre/Post Investment Advisory</h6>
+                                </li>
+                                <li class="tab-btn" data-tab="#tab-4">
+                                    <div class="icon-box p_absolute fs_30 color_black tran_5 l_30"><i class="icon-119"></i></div>
+                                    <h6 class="fs_16 tran_5 fw_sbold">Academic Advisory</h6>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 team-block">
-                    <div class="team-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        <div class="inner-box p_relative d_block b_radius_5 b_shadow_6">
-                            <div class="image-box p_relative d_block">
-                                <div class="overlay-pattern-1 p_absolute r_0" style="background-image: url(assets/images/shape/shape-43.png);"></div>
-                                <div class="overlay-pattern-2 p_absolute l_0" style="background-image: url(assets/images/shape/shape-44.png);"></div>
-                                <figure class="image p_relative d_block"><img src="assets/images/team/team-2.jpg" alt=""></figure>
-                                <ul class="social-links">
-                                    <li><a href="javascript:;"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="javascript:;"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="javascript:;"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="javascript:;"><i class="fab fa-pinterest-p"></i></a></li>
-                                </ul>
+                    <div class="col-lg-8 col-md-12 col-sm-12 inner-column">
+                        <div class="tabs-content p_relative">
+                            <div class="shape">
+                                <div class="shape-1 float-bob-x p_absolute w_95 h_95" style="background-image: url(assets/images/shape/shape-197.png);"></div>
+                                <div class="shape-2 p_absolute b_15 w_95 h_95 float-bob-y" style="background-image: url(assets/images/shape/shape-198.png);"></div>
+                                <div class="shape-3 p_absolute w_170 h_170 b_radius_50"></div>
                             </div>
-                            <div class="lower-content p_relative d_block pt_20 pr_30 pb_25 pl_30">
-                                <h4 class="p_relative d_iblock fs_20 lh_30 font_family_oxygen fw_bold pl_30"><a href="javascript:;">Ann Dowson</a></h4>
-                                <span class="designation fs_16 p_relative d_block">Designer</span>
+                            <div class="tab active-tab" id="tab-1">
+                                <div class="content_block_28">
+                                    <div class="content-box p_relative d_block pt_50 pl_50 pb_50 b_shadow_6 b_radius_10">
+                                        <div class="inner p_relative d_block pt_10 pb_45">
+                                            <h3 class="d_block fs_30 lh_40 fw_bold mb_20">Strategic Consulting</h3>
+                                            <p class="font_family_poppins mb_20">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eius mod tempor incididunt labore dolore.</p>
+                                            <ul class="list clearfix p_relative d_block mb_25">
+                                                <li class="p_relative color_black d_block fs_16 fw_medium font_family_inter mb_9 pl_30">Clients Focused</li>
+                                                <li class="p_relative color_black d_block fs_16 fw_medium font_family_inter mb_9 pl_30">We Can Save You Money.</li>
+                                                <li class="p_relative color_black d_block fs_16 fw_medium font_family_inter pl_30">100% Secure Services</li>
+                                            </ul>
+                                            <div class="btn-box">
+                                                <a href="service-details.html" class="theme-btn theme-btn-six">Read More <i class="icon-4"></i></a>
+                                            </div>
+                                        </div>
+                                        <figure class="image-box p_absolute t_50 r_50 b_radius_10"><img src="assets/images/service/service-42.jpg" alt=""></figure>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab" id="tab-2">
+                                <div class="content_block_28">
+                                    <div class="content-box p_relative d_block pt_50 pl_50 pb_50 b_shadow_6 b_radius_10">
+                                        <div class="inner p_relative d_block pt_10 pb_45">
+                                            <h3 class="d_block fs_30 lh_40 fw_bold mb_20">Financial Advice</h3>
+                                            <p class="font_family_poppins mb_25">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eius mod tempor incididunt labore dolore magna aliqua. enim ad minim veniam quis nostrud.</p>
+                                            <p class="font_family_poppins mb_30">Exercitation ullamco laboris nis aliquip ex ea commodo consequat. Duis aute reprehend.</p>
+                                            <div class="btn-box">
+                                                <a href="service-details.html" class="theme-btn theme-btn-six">Read More <i class="icon-4"></i></a>
+                                            </div>
+                                        </div>
+                                        <figure class="image-box p_absolute t_50 r_50 b_radius_10"><img src="assets/images/service/service-51.jpg" alt=""></figure>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab" id="tab-3">
+                                <div class="content_block_28">
+                                    <div class="content-box p_relative d_block pt_50 pl_50 pb_50 b_shadow_6 b_radius_10">
+                                        <div class="inner p_relative d_block pt_10 pb_45">
+                                            <h3 class="d_block fs_30 lh_40 fw_bold mb_20">Brand Developing</h3>
+                                            <p class="font_family_poppins mb_20">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eius mod tempor incididunt labore dolore.</p>
+                                            <ul class="list clearfix p_relative d_block mb_25">
+                                                <li class="p_relative color_black d_block fs_16 fw_medium font_family_inter mb_9 pl_30">Clients Focused</li>
+                                                <li class="p_relative color_black d_block fs_16 fw_medium font_family_inter mb_9 pl_30">We Can Save You Money.</li>
+                                                <li class="p_relative color_black d_block fs_16 fw_medium font_family_inter pl_30">100% Secure Services</li>
+                                            </ul>
+                                            <div class="btn-box">
+                                                <a href="service-details.html" class="theme-btn theme-btn-six">Read More <i class="icon-4"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="image-box p_absolute t_50 r_50 b_radius_10">
+                                            <figure class="image p_relative d_block b_radius_10 mb_30 mb_30"><img src="assets/images/service/service-52.jpg" alt=""></figure>
+                                            <figure class="image p_relative d_block b_radius_10 mb_30"><img src="assets/images/service/service-53.jpg" alt=""></figure>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab" id="tab-4">
+                                <div class="content_block_29">
+                                    <div class="content-box p_relative d_block pt_50 pl_50 pb_50 b_shadow_6 b_radius_10">
+                                        <div class="inner p_relative d_block pt_10 pb_45">
+                                            <h3 class="d_block fs_30 lh_40 fw_bold mb_20">Advanced Reporting</h3>
+                                            <p class="font_family_poppins mb_20">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eius mod tempor incididunt labore dolore.</p>
+                                            <ul class="list clearfix p_relative d_block mb_25">
+                                                <li class="p_relative color_black d_block fs_16 fw_medium font_family_inter mb_9 pl_30">Clients Focused</li>
+                                                <li class="p_relative color_black d_block fs_16 fw_medium font_family_inter mb_9 pl_30">We Can Save You Money.</li>
+                                                <li class="p_relative color_black d_block fs_16 fw_medium font_family_inter pl_30">100% Secure Services</li>
+                                            </ul>
+                                            <div class="btn-box">
+                                                <a href="service-details.html" class="theme-btn theme-btn-six">Read More <i class="icon-4"></i></a>
+                                            </div>
+                                        </div>
+                                        <figure class="image-box p_absolute t_50 l_50 b_radius_10"><img src="assets/images/service/service-54.jpg" alt=""></figure>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 team-block">
-                    <div class="team-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
-                        <div class="inner-box p_relative d_block b_radius_5 b_shadow_6">
-                            <div class="image-box p_relative d_block">
-                                <div class="overlay-pattern-1 p_absolute r_0" style="background-image: url(assets/images/shape/shape-43.png);"></div>
-                                <div class="overlay-pattern-2 p_absolute l_0" style="background-image: url(assets/images/shape/shape-44.png);"></div>
-                                <figure class="image p_relative d_block"><img src="assets/images/team/team-3.jpg" alt=""></figure>
-                                <ul class="social-links">
-                                    <li><a href="javascript:;"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="javascript:;"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="javascript:;"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="javascript:;"><i class="fab fa-pinterest-p"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="lower-content p_relative d_block pt_20 pr_30 pb_25 pl_30">
-                                <h4 class="p_relative d_iblock fs_20 lh_30 font_family_oxygen fw_bold pl_30"><a href="javascript:;">Nicolas Lawson</a></h4>
-                                <span class="designation fs_16 p_relative d_block">Designer</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 team-block">
-                    <div class="team-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                        <div class="inner-box p_relative d_block b_radius_5 b_shadow_6">
-                            <div class="image-box p_relative d_block">
-                                <div class="overlay-pattern-1 p_absolute r_0" style="background-image: url(assets/images/shape/shape-43.png);"></div>
-                                <div class="overlay-pattern-2 p_absolute l_0" style="background-image: url(assets/images/shape/shape-44.png);"></div>
-                                <figure class="image p_relative d_block"><img src="assets/images/team/team-4.jpg" alt=""></figure>
-                                <ul class="social-links">
-                                    <li><a href="javascript:;"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="javascript:;"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="javascript:;"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="javascript:;"><i class="fab fa-pinterest-p"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="lower-content p_relative d_block pt_20 pr_30 pb_25 pl_30">
-                                <h4 class="p_relative d_iblock fs_20 lh_30 font_family_oxygen fw_bold pl_30"><a href="javascript:;">Erik Genie</a></h4>
-                                <span class="designation fs_16 p_relative d_block">Designer</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- team-one end -->
-
-
-    <!-- graph-one -->
-    <section class="graph-one p_relative">
-        <div class="auto-container">
-            <div class="row clearfix">
-                <div class="col-lg-6 col-md-12 col-sm-12 title-column">
-                    <div class="sec-title-two p_relative d_block mb_50 mr_70">
-                        <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">Expertise</span><br />
-                        <h2 class="d_block fs_40 fw_bold font_family_oxygen mb_35">Build Better Business Software a Lot faster and Easier with Atrix.</h2><br />
-                        <p class="fs_18 font_family_oxygen mb_0">Fruit is their fill meat, hath abundantly place meat don't stars. so and which signs third second after seasons under.</p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                    <div class="image-box p_relative d_block pl_30 wow slideInRight animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <div class="shape parallax-scene parallax-scene-2">
-                            <div data-depth="0.50" class="shape-1 p_absolute w_95 h_95" style="background-image: url(assets/images/shape/shape-45.png);"></div>
-                            <div data-depth="0.30" class="shape-2 p_absolute w_65 h_65" style="background-image: url(assets/images/shape/shape-46.png);"></div>
-                        </div>
-                        <figure class="image p_relative d_block"><a href="assets/images/resource/graph-1.png" class="lightbox-image" data-fancybox="gallery"><img src="assets/images/resource/graph-1.png" alt=""></a></figure>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- graph-one end -->
+    <!-- service-21 end -->
+
 
 
 
