@@ -24,7 +24,12 @@ class Post extends Model
         'tags'  => 'array'
     ];
 
-    public function category(){
+    public function category()
+    {
         return $this->belongsTo(Category::class);
+    }
+    public function authors()
+    {
+        return $this->belongsToMany(User::class);
     }
 }

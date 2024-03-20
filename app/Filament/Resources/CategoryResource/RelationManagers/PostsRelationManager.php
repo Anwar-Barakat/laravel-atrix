@@ -1,49 +1,23 @@
 <?php
 
-namespace App\Filament\Resources;
+namespace App\Filament\Resources\CategoryResource\RelationManagers;
 
-use App\Filament\Resources\PostResource\Pages;
-use App\Filament\Resources\PostResource\RelationManagers;
-use App\Filament\Resources\PostResource\RelationManagers\AuthorsRelationManager;
-use App\Models\Post;
 use Filament\Forms;
 use Filament\Forms\Components\DatePicker;
 use Filament\Forms\Form;
-use Filament\Resources\Resource;
+use Filament\Resources\RelationManagers\RelationManager;
 use Filament\Tables;
 use Filament\Tables\Filters\Filter;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 
-class PostResource extends Resource
+class PostsRelationManager extends RelationManager
 {
-    protected static ?string $model = Post::class;
+    protected static string $relationship = 'posts';
 
-    protected static ?string $navigationIcon = 'heroicon-o-clipboard-document-list';
 
-    protected static ?string $navigationLabel = 'Articles';
-
-    protected static ?string $modelLabel = 'Articles';
-
-    protected static ?string $navigationGroup = 'System Management';
-
-    protected static ?string $slug = 'articles';
-
-    protected static ?string $recordTitleAttribute = 'title';
-
-    // badge on the navbar
-    public static function getNavigationBadge(): ?string
-    {
-        return static::getModel()::count();
-    }
-
-    public static function getNavigationBadgeColor(): string|array|null
-    {
-        return static::getModel()::count() > 2 ? 'danger' : 'info';
-    }
-
-    public static function form(Form $form): Form
+    public  function form(Form $form): Form
     {
         return $form
             ->schema([
@@ -60,13 +34,6 @@ class PostResource extends Resource
                         Forms\Components\ColorPicker::make('color')
                             ->required(),
                         Forms\Components\TagsInput::make('tags')
-                            ->required(),
-                        Forms\Components\Select::make('authors')
-                            ->relationship('authors', 'name')
-                            ->multiple()
-                            ->searchable()
-                            ->native(false)
-                            ->preload()
                             ->required(),
                         Forms\Components\Select::make('category_id')
                             ->relationship(name: 'category', titleAttribute: 'name')
@@ -86,7 +53,7 @@ class PostResource extends Resource
             ]);
     }
 
-    public static function table(Table $table): Table
+    public  function table(Table $table): Table
     {
         return $table
             ->columns([
@@ -144,27 +111,13 @@ class PostResource extends Resource
                 Tables\Actions\EditAction::make(),
                 Tables\Actions\DeleteAction::make(),
             ])
+            ->headerActions([
+                Tables\Actions\CreateAction::make(),
+            ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
                     Tables\Actions\DeleteBulkAction::make(),
                 ]),
             ]);
-    }
-
-    public static function getRelations(): array
-    {
-        return [
-            AuthorsRelationManager::class
-        ];
-    }
-
-    public static function getPages(): array
-    {
-        return [
-            'index' => Pages\ListPosts::route('/'),
-            'create' => Pages\CreatePost::route('/create'),
-            'view' => Pages\ViewPost::route('/{record}'),
-            'edit' => Pages\EditPost::route('/{record}/edit'),
-        ];
     }
 }
