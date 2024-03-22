@@ -29,6 +29,7 @@ class AuthorsRelationManager extends RelationManager
                             ->email()
                             ->required()
                             ->maxLength(255),
+
                         Forms\Components\DateTimePicker::make('email_verified_at')
                             ->hidden(auth()->user()->email != 'admin@learningcurve.com'),
                         Forms\Components\TextInput::make('password')
@@ -70,7 +71,7 @@ class AuthorsRelationManager extends RelationManager
             ])
             ->actions([
                 Tables\Actions\ViewAction::make(),
-                Tables\Actions\EditAction::make(),
+                Tables\Actions\DetachAction::make(),
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([

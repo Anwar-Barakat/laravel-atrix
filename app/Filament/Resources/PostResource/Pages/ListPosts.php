@@ -30,6 +30,10 @@ class ListPosts extends ListRecords
                 ->badge(Post::where('created_at', '>=', now()->subMonth())->count()),
             'This Year' => Tab::make()->modifyQueryUsing(fn (Builder $query) => $query->where('created_at', '>=', now()->subYear()))
                 ->badge(Post::where('created_at', '>=', now()->subYear())->count()),
+            'Published' => Tab::make()->modifyQueryUsing(fn (Builder $query) => $query->where('published', true))
+                ->badge(Post::where('published', true)->count()),
+            'Un Published' => Tab::make()->modifyQueryUsing(fn (Builder $query) => $query->where('published', false))
+                ->badge(Post::where('published', false)->count()),
         ];
     }
 }

@@ -34,6 +34,9 @@ class ContactResource extends Resource
 
     protected static ?string $recordTitleAttribute = 'name';
 
+    protected static ?int $navigationSort = 4;
+
+
     // badge on the navbar
     public static function getNavigationBadge(): ?string
     {

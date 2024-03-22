@@ -30,6 +30,8 @@ class CategoryResource extends Resource
 
     protected static ?string $recordTitleAttribute = 'title';
 
+    protected static ?int $navigationSort = 1;
+
     // badge on the navbar
     public static function getNavigationBadge(): ?string
     {

@@ -5,6 +5,7 @@ namespace App\Filament\Resources;
 use App\Filament\Resources\PostResource\Pages;
 use App\Filament\Resources\PostResource\RelationManagers;
 use App\Filament\Resources\PostResource\RelationManagers\AuthorsRelationManager;
+use App\Filament\Resources\PostResource\RelationManagers\CommentsRelationManager;
 use App\Models\Post;
 use Filament\Forms;
 use Filament\Forms\Components\DatePicker;
@@ -12,6 +13,8 @@ use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Filters\Filter;
+use Filament\Tables\Filters\SelectFilter;
+use Filament\Tables\Filters\TernaryFilter;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
@@ -32,6 +35,10 @@ class PostResource extends Resource
 
     protected static ?string $recordTitleAttribute = 'title';
 
+    protected static ?int $navigationSort = 2;
+
+    // protected static ?int  = 'title';
+
     // badge on the navbar
     public static function getNavigationBadge(): ?string
     {
@@ -47,6 +54,58 @@ class PostResource extends Resource
     {
         return $form
             ->schema([
+                // Tabs::make('Create New Post')->tabs([
+                //     Tab::make('Tab 1')->icon('heroicon-o-clipboard-document-list')->activeTab()->schema([
+                //         Forms\Components\Section::make('Post Information')
+                //             // ->description('The Content of Contact message.')
+                //             ->schema([
+                //                 Forms\Components\TextInput::make('title')
+                //                     ->required()
+                //                     ->rules(['min:3', 'max:50']),
+                //                 Forms\Components\TextInput::make('slug')
+                //                     ->required()
+                //                     ->unique(ignoreRecord: true)
+                //                     ->maxLength(255),
+                //                 Forms\Components\ColorPicker::make('color')
+                //                     ->required(),
+                //                 Forms\Components\TagsInput::make('tags')
+                //                     ->required(),
+                //                 Forms\Components\Select::make('authors')
+                //                     ->relationship('authors', 'name')
+                //                     ->multiple()
+                //                     ->searchable()
+                //                     ->native(false)
+                //                     ->preload()
+                //                     ->required(),
+                //                 Forms\Components\Select::make('category_id')
+                //                     ->relationship(name: 'category', titleAttribute: 'name')
+                //                     ->searchable()
+                //                     ->native(false)
+                //                     ->preload()
+                //                     ->required(),
+                //             ])
+                //     ]),
+                //     Tab::make('Tab 2')->schema([
+                //         Forms\Components\Section::make('Post Information')
+                //             // ->description('The Content of Contact message.')
+                //             ->schema([
+                //                 Forms\Components\Section::make('Post Information')
+                //                     // ->description('The Content of Contact message.')
+                //                     ->schema([
+
+
+                //                         Forms\Components\FileUpload::make('thumbnail')
+                //                             ->disk('public')
+                //                             ->directory('thumbnails')
+                //                             ->required(),
+                //                         Forms\Components\MarkdownEditor::make('content')
+                //                             ->columnSpanFull(),
+                //                         Forms\Components\Checkbox::make('published')
+                //                             ->default(0),
+                //                     ])->columns(2)
+                //             ])
+                //     ]),
+                // ]),
                 Forms\Components\Section::make('Post Information')
                     // ->description('The Content of Contact message.')
                     ->schema([
@@ -97,12 +156,15 @@ class PostResource extends Resource
                     ->searchable(),
                 Tables\Columns\ColorColumn::make('color')
                     ->toggleable(isToggledHiddenByDefault: true),
-
                 Tables\Columns\TextColumn::make('slug')
                     ->searchable()
                     ->toggleable(isToggledHiddenByDefault: true),
                 Tables\Columns\TextColumn::make('category.name')
                     ->numeric()
+                    ->badge()
+                    ->color(function (string $state): string {
+                        return 'info';
+                    })
                     ->searchable()
                     ->sortable(),
                 Tables\Columns\CheckboxColumn::make('published')
@@ -119,6 +181,19 @@ class PostResource extends Resource
             ])
             ->filters(
                 [
+                    SelectFilter::make('Category')
+                        ->relationship('category', 'name')
+                        ->searchable()
+                        ->preload()
+                        ->multiple()
+                        ->label('Filter by Category')
+                        ->indicator('Category'),
+                    // Filter::make('Published Posts')
+                    //     ->label('Published Posts')
+                    //     ->query(function (Builder $query) {
+                    //         $query->where('published', true);
+                    //     }),
+                    TernaryFilter::make('published'),
                     Filter::make('created_at')
                         ->form([
                             DatePicker::make('created_from'),
@@ -154,7 +229,8 @@ class PostResource extends Resource
     public static function getRelations(): array
     {
         return [
-            AuthorsRelationManager::class
+            AuthorsRelationManager::class,
+            CommentsRelationManager::class
         ];
     }
 
