@@ -10,6 +10,7 @@ use App\Models\Post;
 use Filament\Forms;
 use Filament\Forms\Components\DatePicker;
 use Filament\Forms\Form;
+use Filament\Forms\Set;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Filters\Filter;
@@ -18,6 +19,7 @@ use Filament\Tables\Filters\TernaryFilter;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use Illuminate\Support\Str;
 
 class PostResource extends Resource
 {
@@ -111,6 +113,12 @@ class PostResource extends Resource
                     ->schema([
                         Forms\Components\TextInput::make('title')
                             ->required()
+                            ->live(onBlur: true)
+                            ->afterStateUpdated(function (string $operation, string $state, Set $set) {
+                                if ($operation == 'edit' || $operation == 'create') {
+                                    $set('slug', Str::slug($state));
+                                }
+                            })
                             ->rules(['min:3', 'max:50']),
                         Forms\Components\TextInput::make('slug')
                             ->required()
