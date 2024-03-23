@@ -41,12 +41,16 @@ class CommentResource extends Resource
                 Forms\Components\Section::make('Post Information')
                     // ->description('The Content of Contact message.')
                     ->schema([
-                        Forms\Components\Select::make('user_id')
-                            ->relationship('user', 'name')
-                            ->searchable()
-                            ->preload()
-                            ->native(false)
-                            ->required(),
+                        Forms\Components\TextInput::make('name')
+                        ->required()
+                        ->minLength(3),
+                        Forms\Components\TextInput::make('email')
+                        ->required()
+                        ->minLength(3),
+                        Forms\Components\TextInput::make('phone')
+                        ->required()
+                        ->tel()
+                        ->minLength(3),
                         Forms\Components\MorphToSelect::make('commentable')
                             ->types([
                                 Type::make(Post::class)->titleAttribute('title'),
@@ -67,14 +71,23 @@ class CommentResource extends Resource
     {
         return $table
             ->columns([
-                Tables\Columns\TextColumn::make('user.name')
-                    ->numeric()
-                    ->sortable(),
+                Tables\Columns\TextColumn::make('name')
+                    ->sortable()
+                    ->searchable(),
+                Tables\Columns\TextColumn::make('email')
+                    ->sortable()
+                    ->searchable(),
+                Tables\Columns\TextColumn::make('phone')
+                    ->sortable()
+                    ->searchable()
+                    ->toggleable(isToggledHiddenByDefault: true),
                 Tables\Columns\TextColumn::make('commentable_type')
                     ->searchable(),
                 Tables\Columns\TextColumn::make('commentable_id')
                     ->numeric()
-                    ->sortable(),
+                    ->sortable()
+                    ->toggleable(isToggledHiddenByDefault: true),
+
                 Tables\Columns\TextColumn::make('created_at')
                     ->dateTime()
                     ->sortable()

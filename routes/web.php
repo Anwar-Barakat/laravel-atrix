@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\Pages\AboutUsController;
+use App\Http\Controllers\Pages\ArticleController;
+use App\Http\Controllers\Pages\CommentController;
 use App\Http\Controllers\Pages\ContactController;
 use App\Http\Controllers\Pages\ContactUsController;
 use App\Http\Controllers\Pages\HomeController;
@@ -32,6 +34,9 @@ Route::get('/teams/basem-abu-dagga',                [TeamController::class, 'sho
 Route::get('/teams/hana-abu-samra',                 [TeamController::class, 'show3'])->name('pages.teams.hana-abu-samra');
 
 Route::resource('contacts',                         ContactController::class);
+
+Route::resource('articles',                         ArticleController::class);
+Route::resource('articles.comments',                CommentController::class);
 
 
 

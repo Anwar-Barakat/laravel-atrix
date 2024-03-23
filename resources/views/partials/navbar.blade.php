@@ -48,12 +48,8 @@
                     <nav class="main-menu navbar-expand-md navbar-light">
                         <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul class="navigation clearfix home-menu">
-                                <li class="dropdown {{ request()->routeIs('pages.home') ? 'current' : '' }}">
-                                    <a href="{{ route('pages.home') }}">Home</a>
-                                </li>
-                                <li class="dropdown {{ request()->routeIs('pages.about-us') ? 'current' : '' }}">
-                                    <a href="{{ route('pages.about-us') }}">About Us</a>
-                                </li>
+                                <li class="dropdown {{ request()->routeIs('pages.home') ? 'current' : '' }}"><a href="{{ route('pages.home') }}">Home</a></li>
+                                <li class="dropdown {{ request()->routeIs('pages.about-us') ? 'current' : '' }}"><a href="{{ route('pages.about-us') }}">About Us</a></li>
                                 <li class="dropdown {{ request()->routeIs('pages.projects.index') ? 'current' : '' }}">
                                     <a href="{{ route('pages.projects.index') }}">Projects</a>
                                     {{-- <ul>
@@ -72,11 +68,10 @@
                                                 <li><a href="javascript:;">Project Details 5</a></li>
                                             </ul>
                                         </li>
-                                    </ul> --}}
-                                </li>
+                                    </ul> --}}</li>
                                 <li class="dropdown {{ request()->routeIs('pages.teams.index') ? 'current' : '' }}"><a href="{{ route('pages.teams.index') }}">Team</a></li>
-                                <li class="dropdown {{ request()->routeIs('contacts.index') ? 'current' : '' }}"><a href="{{ route('contacts.index') }}">Contact Us</a>
-                                </li>
+                                <li class="dropdown {{ request()->routeIs('contacts.index') ? 'current' : '' }}"><a href="{{ route('contacts.index') }}">Contact Us</a></li>
+                                <li class="dropdown {{ request()->routeIs('articles.index') ? 'current' : '' }}"><a href="{{ route('articles.index') }}">Articles</a></li>
                             </ul>
                         </div>
                     </nav>

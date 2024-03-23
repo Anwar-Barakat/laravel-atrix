@@ -8,13 +8,13 @@
             <div class="row clearfix">
                 <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                     <div class="footer-widget about-widget wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <figure class="footer-logo p_relative d_block mb_35"><a href="javascript:;"><img src="assets/images/logo-20.png" alt=""></a></figure>
+                        <figure class="footer-logo p_relative d_block mb_35"><a href="javascript:;"><img src="{{ asset('assets/images/logo-20.png') }}" alt=""></a></figure>
                         <div class="text">
                             <p>Learning Curve Holdings, is a specialized educational investments company that is mandated to cultivate some of the highest quality educational systems around the globe, and develop their footprint in the Mena Region. After carefully analyzing the educational ecosystem, and evaluating the various providers in the region, the Learning Curve identified several major areas that are very promising. </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                     <div class="footer-widget links-widget ml_80 wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div class="widget-title">
                             <h4>Links</h4>
@@ -30,23 +30,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
-                    <div class="footer-widget links-widget wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
-                        <div class="widget-title">
-                            <h4>Services</h4>
-                        </div>
-                        <div class="widget-content">
-                            <ul class="links-list clearfix">
-                                <li><a href="javascript:;">Service</a></li>
-                                <li><a href="javascript:;">Service</a></li>
-                                <li><a href="javascript:;">Service</a></li>
-                                <li><a href="javascript:;">Service</a></li>
-                                <li><a href="javascript:;">Service</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                     <div class="footer-widget contact-widget wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="widget-title">
                             <h4>Contacts</h4>

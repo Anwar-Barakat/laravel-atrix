@@ -16,7 +16,7 @@
                 <ul class="bread-crumb p_relative d_block mb_8 clearfix">
                     <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inte mr_20"><a href="{{ route('pages.home') }}">Home</a></li>
                     <li class="p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inte mr_20">Project</li>
-                    <li class="current p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inte">Project Details 3</li>
+                    <li class="current p_relative d_iblock fs_16 lh_25 fw_sbold font_family_inte">Project Details</li>
                 </ul>
             </div>
         </div>

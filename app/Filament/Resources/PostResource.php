@@ -145,7 +145,7 @@ class PostResource extends Resource
                             ->disk('public')
                             ->directory('thumbnails')
                             ->required(),
-                        Forms\Components\MarkdownEditor::make('content')
+                        Forms\Components\Textarea::make('content')
                             ->columnSpanFull(),
                         Forms\Components\Checkbox::make('published')
                             ->default(0),
