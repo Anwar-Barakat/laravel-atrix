@@ -51,11 +51,11 @@
                                         {{-- <li class="p_relative d_iblock float_left fs_16">2 Comments</li> --}}
                                     </ul>
                                     <p class="d_block font_family_poppins mb_30">
-                                        {!!  Str::limit($article->content, 200) !!} <a href="{{ route('articles.comments.index',['article'=>$article]) }}">Read more</a>
+                                        {!!  Str::limit($article->content, 200) !!}
                                     </p>
-                                    {{-- <div class="btn-box">
-                                        <a href="javascript:;" class="theme-btn theme-btn-six">Learn More <i class="icon-4"></i></a>
-                                    </div> --}}
+                                    <div class="btn-box">
+                                        <a href="{{ route('articles.comments.index',['article'=>$article]) }}" class="theme-btn theme-btn-six">Read More <i class="icon-4"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
