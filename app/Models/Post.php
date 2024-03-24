@@ -24,6 +24,10 @@ class Post extends Model
         'tags'  => 'array'
     ];
 
+    public function scopePublished($query){
+        return $query->where('published',true);
+    }
+
     public function category()
     {
         return $this->belongsTo(Category::class);

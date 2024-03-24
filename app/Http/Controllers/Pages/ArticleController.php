@@ -13,7 +13,7 @@ class ArticleController extends Controller
      */
     public function index()
     {
-        $articles = Post::latest()->paginate(10);
+        $articles = Post::latest()->published()->paginate(10);
         return view('pages.articles.index',['articles' => $articles]);
     }
 
