@@ -32,6 +32,7 @@ Route::get('/teams',                                [TeamController::class, 'ind
 Route::get('/teams/mohammad-riad-al-merabi',        [TeamController::class, 'show1'])->name('pages.teams.mohammad-riad-al-merabi');
 Route::get('/teams/basem-abu-dagga',                [TeamController::class, 'show2'])->name('pages.teams.basem-abu-dagga');
 Route::get('/teams/hana-abu-samra',                 [TeamController::class, 'show3'])->name('pages.teams.hana-abu-samra');
+Route::get('/teams/hassan-kalakeche ',              [TeamController::class, 'show4'])->name('pages.teams.hassan-kalakeche');
 
 Route::resource('contacts',                         ContactController::class);
 

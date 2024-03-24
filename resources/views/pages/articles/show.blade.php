@@ -26,7 +26,7 @@
         <section class="sidebar-page-container blog-standard-2 blog-details p_relative sec-pad">
             <div class="auto-container">
                 <div class="row clearfix">
-                    <div class="col-lg-8 col-md-12 col-sm-12 content-side">
+                    <div class="col-lg-9 col-md-12 col-sm-12 content-side">
                         <div class="blog-details-content p_relative d_block mr_20">
                             <div class="blog-post p_relative d_block mb_60">
                                 <div class="content-one p_relative d_block mb_60">
@@ -111,7 +111,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-12 col-sm-12 sidebar-side">
+                    {{-- <div class="col-lg-4 col-md-12 col-sm-12 sidebar-side">
                         <div class="blog-sidebar p_relative d_block ml_20 b_shadow_6 b_radius_10">
                             <div class="sidebar-widget search-widget p_relative d_block pt_35 pr_40 pb_30 pl_40 b_radius_10">
                                 <div class="widget-title p_relative d_block mb_35">
@@ -193,7 +193,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </section>

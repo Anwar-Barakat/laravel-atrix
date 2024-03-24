@@ -28,7 +28,7 @@
     <section class="sidebar-page-container p_relative sec-pad">
         <div class="auto-container">
             <div class="row clearfix">
-                <div class="col-lg-8 col-md-12 col-sm-12 content-side">
+                <div class="col-lg-9 col-md-12 col-sm-12 content-side">
                     <div class="blog-standard-content p_relative d_block mr_20">
                         @forelse ($articles as $article)
                         <div class="news-block-one wow fadeInUp animated animated" data-wow-delay="00ms" data-wow-duration="1500ms">
@@ -51,7 +51,7 @@
                                         {{-- <li class="p_relative d_iblock float_left fs_16">2 Comments</li> --}}
                                     </ul>
                                     <p class="d_block font_family_poppins mb_30">
-                                        {!! $article->content !!}
+                                        {!!  Str::limit($article->content, 200) !!} <a href="{{ route('articles.comments.index',['article'=>$article]) }}">Read more</a>
                                     </p>
                                     {{-- <div class="btn-box">
                                         <a href="javascript:;" class="theme-btn theme-btn-six">Learn More <i class="icon-4"></i></a>
