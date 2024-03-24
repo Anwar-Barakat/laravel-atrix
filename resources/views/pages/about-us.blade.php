@@ -95,7 +95,7 @@
     <section class="about-19 p_relative sec-pad">
         <div class="pattern-layer p_absolute l_100 t_50 float-bob-y" style="background-image: url(assets/images/shape/shape-184.png);"></div>
         <div class="auto-container">
-            <div class="row clearfix">
+            <div class="row clearfix mb-4 pb-4">
                 <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div class="content_block_one">
                         <div class="content-box p_relative d_block">
@@ -154,63 +154,29 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- about-19 end -->
-
-
-    <!-- funfact-ten -->
-    {{-- <section class="funfact-ten about-page-4 pb_150 text-center p_relative">
-        <div class="pattern-layer">
-            <div class="pattern-1 p_absolute l_0 b_0" style="background-image: url(assets/images/shape/shape-186.png);"></div>
-            <div class="pattern-2 p_absolute r_170 b_0" style="background-image: url(assets/images/shape/shape-187.png);"></div>
-        </div>
-        <div class="auto-container">
-            <div class="row clearfix">
-                <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
-                    <div class="counter-block-one wow slideInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <div class="inner-box p_relative d_block">
-                            <div class="count-outer count-box p_relative d_block fs_70 lh_70 fw_sbold mb_15 font_family_inter">
-                                <span class="count-text font_family_inter p_relative" data-speed="2500" data-stop="90">0</span>
-                            </div>
-                            <p class="p_relative d_block font_family_poppins">Successful projects</p>
+            <div class="row">
+                <div class="lower-content">
+                    <div class="text">
+                        <div class="sec-title-six p_relative d_block mb_25">
+                            <h2 class="d_block fs_40 lh_52 fw_bold">Our Story</h2>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
-                    <div class="counter-block-one wow slideInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        <div class="inner-box p_relative d_block">
-                            <div class="count-outer count-box p_relative d_block fs_70 lh_70 fw_sbold mb_15 font_family_inter">
-                                <span class="count-text font_family_inter p_relative" data-speed="2500" data-stop="2.6">0</span><span class="font_family_inter">M</span>
-                            </div>
-                            <p class="p_relative d_block font_family_poppins">Satisfied Clients</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
-                    <div class="counter-block-one wow slideInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
-                        <div class="inner-box p_relative d_block">
-                            <div class="count-outer count-box p_relative d_block fs_70 lh_70 fw_sbold mb_15 font_family_inter">
-                                <span class="count-text font_family_inter p_relative" data-speed="2500" data-stop="35">0</span>
-                            </div>
-                            <p class="p_relative d_block font_family_poppins">Experienced Staff</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
-                    <div class="counter-block-one wow slideInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                        <div class="inner-box p_relative d_block">
-                            <div class="count-outer count-box p_relative d_block fs_70 lh_70 fw_sbold mb_15 font_family_inter">
-                                <span class="count-text font_family_inter p_relative" data-speed="2500" data-stop="10">0</span>
-                            </div>
-                            <p class="p_relative d_block font_family_poppins">Awards Win</p>
-                        </div>
+                        <p class="font_family_poppins mb_25">
+                            The Learning Curve (TLC), is a specialized educational investments company that was capitalized to cultivate some of the highest quality educational institutions around the globe and develop a successful footprint in the Mena Region. After carefully scrutinizing the local educational ecosystems, and evaluating the competitive offerings in the region, the Learning Curve identified major opportunities to invest and develop their operations.
+                        </p>
+                        <p class="font_family_poppins mb_25">
+                            The Founder and Executive Director, Basem Abu Dagga comes from a long history of educators, with his late Grandfather proudly among the first four teachers to come to the region in the early 1930's. His mother continued the legacy by actively building the foundation of teaching in one of Kuwait's most prominent schools. Basem leads a team of highly qualified individuals with the same passion for learning.
+                        </p>
+                        <p class="font_family_poppins mb_25">
+                            Our team of highly qualified experts have been instrumental in developing some of the most successful academic institutions in the region and have had a solid track record in the region spanning across two decades. The all rounded, highly diverse, management team has the profound ability to scrutinize the entire operations of an educational institution. Our team has executed some of the regions most sophisticated technological platforms and systems and developed a full academic educational DNA.
+                        </p>
+                        <p class="font_family_poppins mb_25">
+                            Our sphere of influence combines Academic and operational expertise that stems from strategy, educational systems, leadership and extends into capital raising and investments, school improvements, academic plans, teaching and learning, management and operations, maximizing efficiencies and developing and executing strategic growth plans. </p>
                     </div>
                 </div>
             </div>
         </div>
-    </section> --}}
-    <!-- funfact-ten end -->
+    </section>
+    <!-- about-19 end -->
 
 
     <!-- process-six -->
@@ -302,59 +268,63 @@
     <!-- clients-one end -->
 
 
-    <!-- testimonial-three -->
-    <section class="testimonial-three about-page-4 p_relative sec-pad">
-        <div class="shape">
-            <div class="shape-3 t_75 p_absolute float-bob-y" style="background-image: url(assets/images/shape/shape-56.png);"></div>
-        </div>
+    <!-- team-11 -->
+    <section class="team-11 team-page-5 p_relative pt_130 pb_150">
         <div class="auto-container">
+            <div class="sec-title p_relative centred mb_50">
+                <h2 class="d_block fs_40 fw_bold mb_30">Introduce Our Team <br>Members</h2>
+                <p class="fs_16 lh_28 font_family_poppins">Amet consectur adipiscing elit sed eiusmod ex tempor incididunt <br>labore dolore magna aliquaenim ad minim veniam.</p>
+            </div>
             <div class="row clearfix">
-                <div class="col-lg-4 col-md-12 col-sm-12 title-column">
-                    <div class="sec-title-six p_relative d_block mr_70">
-                        <h4 class="p_relative d_block fs_17 uppercase lh_30 fw_sbold mb_15">Testimonials</h4>
-                        <h2 class="d_block fs_40 lh_52 fw_bold">Trusted by More Than 3k Clients.</h2>
+                <div class="col-lg-4 col-md-6 col-sm-12 team-block">
+                    <div class="team-block-five wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <div class="inner-box p_relative d_block pr_45 mb_45">
+                            <figure class="image-box p_relative d_block"><img src="{{ asset('assets/images/resource/chooseus-7.jpg') }}" alt=""></figure>
+                            <div class="lower-content p_absolute r_0 b_45 b_shadow_6 pl_25 pt_13 pr_25 pb_15 z_1 tran_5">
+                                <h4 class="d_block fs_20 lh_30 mb_2 tran_5"><a href="{{ route('pages.teams.mohammad-riad-al-merabi') }}" class="d_iblock color_black">Mohammad Riad Al-merabi</a></h4>
+                                <span class="designation p_relative d_block fs_16 lh_20 font_family_poppins tran_5">Senior Leadership And Academic Advisor</span>
+                                <ul class="social-links clearfix p_absolute l_25 b_14 tran_5">
+                                    <li class="p_relative d_iblock pull-left mr_25"><a href="javascript:;" class="d_iblock fs_15"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li class="p_relative d_iblock pull-left mr_25"><a href="javascript:;" class="d_iblock fs_15"><i class="fab fa-twitter"></i></a></li>
+                                    <li class="p_relative d_iblock pull-left mr_25"><a href="javascript:;" class="d_iblock fs_15"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li class="p_relative d_iblock pull-left"><a href="javascript:;" class="d_iblock fs_15"><i class="fab fa-pinterest-p"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-8 col-md-12 col-sm-12 inner-column">
-                    <div class="inner-content">
-                        <div class="two-column-carousel owl-carousel owl-theme owl-dots-none nav-style-two">
-                            <div class="testimonial-block-one">
-                                <div class="inner-box p_relative d_block">
-                                    <div class="text p_relative d_block b_radius_10 pt_35 pr_30 pb_40 pl_40 mb_30">
-                                        <ul class="rating clearfix p_relative d_block mb_15">
-                                            <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                            <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                            <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                            <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                            <li class="p_relative d_iblock pull-left fs_16"><i class="icon-20"></i></li>
-                                        </ul>
-                                        <p class="font_family_oxygen">Lorem ipsum dolor amet consectur elitadicing elit sed do usmod tempor uincididunt enim ad minim veniam quis nostrud exer citation laboris nis aliquip comodo perspiatix.</p>
-                                    </div>
-                                    <div class="author p_relative d_block pl_90 pt_7 pb_11 ml_20">
-                                        <figure class="thumb-box p_absolute l_0 t_0 w_70 h_70 b_radius_50"><img src="assets/images/resource/testimonial-1.png" alt=""></figure>
-                                        <h4 class="d_block fs_20 lh_30 mb_2">Kevin Spacey</h4>
-                                        <span class="designation p_relative d_block fs_16 lh_20">Designer</span>
-                                    </div>
-                                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 team-block">
+                    <div class="team-block-five wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <div class="inner-box p_relative d_block pr_45 mb_45">
+                            <figure class="image-box p_relative d_block"><img src="{{ asset('assets/images/resource/chooseus-7.jpg') }}" alt=""></figure>
+                            <div class="lower-content p_absolute r_0 b_45 b_shadow_6 pl_25 pt_13 pr_25 pb_15 z_1 tran_5">
+                                <h4 class="d_block fs_20 lh_30 mb_2 tran_5"><a href="{{ route('pages.teams.basem-abu-dagga') }}" class="d_iblock color_black">Basem Abu Dagga</a></h4>
+                                <span class="designation p_relative d_block fs_16 lh_20 font_family_poppins tran_5">Founder And Senior Investment Advisor</span>
+                                <ul class="social-links clearfix p_absolute l_25 b_14 tran_5">
+                                    <li class="p_relative d_iblock pull-left mr_25"><a href="javascript:;" class="d_iblock fs_15"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li class="p_relative d_iblock pull-left mr_25"><a href="javascript:;" class="d_iblock fs_15"><i class="fab fa-twitter"></i></a></li>
+                                    <li class="p_relative d_iblock pull-left mr_25"><a href="https://www.linkedin.com/in/basem-abu-dagga-1364682/" class="d_iblock fs_15"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li class="p_relative d_iblock pull-left"><a href="javascript:;" class="d_iblock fs_15"><i class="fab fa-pinterest-p"></i></a></li>
+                                </ul>
                             </div>
-                            <div class="testimonial-block-one">
-                                <div class="inner-box p_relative d_block">
-                                    <div class="text p_relative d_block b_radius_10 pt_35 pr_30 pb_40 pl_40 mb_30">
-                                        <ul class="rating clearfix p_relative d_block mb_15">
-                                            <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                            <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                            <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                            <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                            <li class="p_relative d_iblock pull-left fs_16"><i class="icon-20"></i></li>
-                                        </ul>
-                                        <p class="font_family_oxygen">Lorem ipsum dolor amet consectur elitadicing elit sed do usmod tempor uincididunt enim ad minim veniam quis nostrud exer citation laboris nis aliquip comodo perspiatix.</p>
-                                    </div>
-                                    <div class="author p_relative d_block pl_90 pt_7 pb_11 ml_20">
-                                        <figure class="thumb-box p_absolute l_0 t_0 w_70 h_70 b_radius_50"><img src="assets/images/resource/testimonial-2.png" alt=""></figure>
-                                        <h4 class="d_block fs_20 lh_30 mb_2">Nicolas Lawson</h4>
-                                        <span class="designation p_relative d_block fs_16 lh_20">Designer</span>
-                                    </div>
-                                </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 team-block">
+                    <div class="team-block-five wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <div class="inner-box p_relative d_block pr_45 mb_45">
+                            <figure class="image-box p_relative d_block"><img src="{{ asset('assets/images/resource/chooseus-7.jpg') }}" alt=""></figure>
+                            <div class="lower-content p_absolute r_0 b_45 b_shadow_6 pl_25 pt_13 pr_25 pb_15 z_1 tran_5">
+                                <h4 class="d_block fs_20 lh_30 mb_2 tran_5"><a href="{{ route('pages.teams.hana-abu-samra') }}" class="d_iblock color_black">HANA ABU SAMRA</a></h4>
+                                <span class="designation p_relative d_block fs_16 lh_20 font_family_poppins tran_5">ACADEMIC ADVISOR</span>
+                                <ul class="social-links clearfix p_absolute l_25 b_14 tran_5">
+                                    <li class="p_relative d_iblock pull-left mr_25"><a href="javascript:;" class="d_iblock fs_15"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li class="p_relative d_iblock pull-left mr_25"><a href="javascript:;" class="d_iblock fs_15"><i class="fab fa-twitter"></i></a></li>
+                                    <li class="p_relative d_iblock pull-left mr_25"><a href="javascript:;" class="d_iblock fs_15"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li class="p_relative d_iblock pull-left"><a href="javascript:;" class="d_iblock fs_15"><i class="fab fa-pinterest-p"></i></a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -362,85 +332,5 @@
             </div>
         </div>
     </section>
-    <!-- testimonial-three -->
-
-
-    <!-- team-three -->
-    <section class="team-three about-page-4 p_relative centred sec-pad">
-        <div class="shape">
-            <div class="shape-1 p_absolute t_120 r_150 rotate-me" style="background-image: url(assets/images/shape/shape-176.png);"></div>
-            <div class="shape-2 p_absolute l_140 float-bob-y" style="background-image: url(assets/images/shape/shape-56.png);"></div>
-            <div class="shape-3 p_absolute t_0 r_0" style="background-image: url(assets/images/shape/shape-181.png);"></div>
-        </div>
-        <div class="auto-container">
-            <div class="sec-title-six p_relative d_block mb_50">
-                <h4 class="p_relative d_block fs_17 uppercase lh_30 fw_sbold mb_15" data-animation="overlay-animation">Team Member</h4>
-                <h2 class="d_block fs_40 lh_52 fw_bold">Our Staff Comes from Many <br />Different Disciplines</h2>
-            </div>
-            <div class="row clearfix">
-
-                <div class="col-lg-4 col-md-6 col-sm-12 team-block">
-                    <div class="team-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        <div class="inner-box p_relative d_block">
-                            <div class="image-box p_relative d_block b_radius_10">
-                                <figure class="image p_relative d_block"><img src="assets/images/team/team-5.jpg" alt=""></figure>
-                                <ul class="social-links-two">
-                                    <li class="p_relative d_iblock"><a href="javascript:;" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li class="p_relative d_iblock"><a href="javascript:;" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-twitter"></i></a></li>
-                                    <li class="p_relative d_iblock"><a href="javascript:;" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-linkedin-in"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="lower-content p_relative d_block ml_40 mr_40">
-                                <div class="inner p_relative d_block b_radius_10 pt_20 pr_30 pb_25 pl_30 b_shadow_6">
-                                    <h4 class="p_relative d_iblock fs_20 lh_30"><a href="{{ route('pages.teams.mohammad-riad-al-merabi') }}">Mohammad Riad Al-merabi</a></h4>
-                                    <span class="designation fs_16 p_relative d_block font_family_poppins">Senior Leadership And Academic Advisor</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 team-block">
-                    <div class="team-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <div class="inner-box p_relative d_block">
-                            <div class="image-box p_relative d_block b_radius_10">
-                                <figure class="image p_relative d_block"><img src="assets/images/team/team-5.jpg" alt=""></figure>
-                                <ul class="social-links-two">
-                                    <li class="p_relative d_iblock"><a href="javascript:;" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li class="p_relative d_iblock"><a href="javascript:;" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-twitter"></i></a></li>
-                                    <li class="p_relative d_iblock"><a href="javascript:;" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-linkedin-in"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="lower-content p_relative d_block ml_40 mr_40">
-                                <div class="inner p_relative d_block b_radius_10 pt_20 pr_30 pb_25 pl_30 b_shadow_6">
-                                    <h4 class="p_relative d_iblock fs_20 lh_30"><a href="{{ route('pages.teams.basem-abu-dagga') }}">Basem Abu Dagga</a></h4>
-                                    <span class="designation fs_16 p_relative d_block font_family_poppins">Founder And Senior Investment Advisor</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 team-block">
-                    <div class="team-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
-                        <div class="inner-box p_relative d_block">
-                            <div class="image-box p_relative d_block b_radius_10">
-                                <figure class="image p_relative d_block"><img src="assets/images/team/team-5.jpg" alt=""></figure>
-                                <ul class="social-links-two">
-                                    <li class="p_relative d_iblock"><a href="javascript:;" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li class="p_relative d_iblock"><a href="javascript:;" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-twitter"></i></a></li>
-                                    <li class="p_relative d_iblock"><a href="javascript:;" class="w_40 h_40 lh_40 fs_17 centred b_radius_50"><i class="fab fa-linkedin-in"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="lower-content p_relative d_block ml_40 mr_40">
-                                <div class="inner p_relative d_block b_radius_10 pt_20 pr_30 pb_25 pl_30 b_shadow_6">
-                                    <h4 class="p_relative d_iblock fs_20 lh_30"><a href="{{ route('pages.teams.hana-abu-samra') }}">Hana Abu Samra</a></h4>
-                                    <span class="designation fs_16 p_relative d_block font_family_poppins">Academic Advisor</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- team-three end -->
+    <!-- team-11 end -->
 </x-layout>

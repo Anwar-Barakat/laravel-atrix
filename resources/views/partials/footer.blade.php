@@ -53,10 +53,10 @@
                 <div class="copyright pull-left">
                     <p><a href="{{ route('pages.home') }}"></a> &copy; Copyright The Learning Curve Holdings 2024</p>
                 </div>
-                <ul class="footer-nav clearfix pull-right">
+                {{-- <ul class="footer-nav clearfix pull-right">
                     <li><a href="{{ route('pages.home') }}">Terms of Service</a></li>
-                    <li><a href="{{ route('pages.home') }}">Privacy Policy</a></li>
-                </ul>
+                <li><a href="{{ route('pages.home') }}">Privacy Policy</a></li>
+                </ul> --}}
             </div>
         </div>
     </div>
