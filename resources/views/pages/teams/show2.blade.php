@@ -31,7 +31,7 @@
             <div class="team-details-content p_relative d_block mb_110 b_radius_10 pt_100 pr_100 pb_100 pl_100 b_shadow_6">
                 <div class="row clearfix">
                     <div class="col-lg-6 col-md-6 col-sm-12 image-column">
-                        <figure class="image-box p_relative d_block b_radius_10 mr_20"><img src="{{ asset('assets/images/resource/chooseus-7.jpg') }}" alt=""></figure>
+                        <figure class="image-box p_relative d_block b_radius_10 mr_20"><img src="{{ asset('assets/images/team/basem.jpeg') }}" alt=""></figure>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 content-column">
                         <div class="content-box p_relative d_block ml_20">

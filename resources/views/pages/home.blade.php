@@ -14,7 +14,7 @@
         <div class="pattern-layer p_absolute l_0 b_0 z_2" style="background-image: url(assets/images/shape/shape-33.png);"></div>
         <div class="banner-carousel owl-theme owl-carousel owl-dots-none">
             <div class="slide-item p_relative">
-                <div class="image-layer p_absolute" style="background-image:url(assets/images/banner/banner-4.jpg)"></div>
+                <div class="image-layer p_absolute" style="background-image:url({{ asset('assets/images/sliders/slider01.jpeg') }})"></div>
                 <div class="auto-container">
                     <div class="content-box p_relative d_block z_5">
                         <h2 class="p_relative d_iblock fw_bold fs_80 lh_90 mb_15"><span class="slider-text-anim">Nelson Mandela</span></h2>
@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="slide-item p_relative">
-                <div class="image-layer p_absolute" style="background-image:url(assets/images/banner/banner-5.jpg)"></div>
+                <div class="image-layer p_absolute" style="background-image:url({{ asset('assets/images/sliders/slider02.jpeg') }})"></div>
                 <div class="auto-container">
                     <div class="content-box p_relative d_block z_5">
                         <h2 class="p_relative d_iblock fw_bold fs_80 lh_90 mb_15"><span class="slider-text-anim">Victor Hugo</span><br />
@@ -40,7 +40,7 @@
                 </div>
             </div>
             <div class="slide-item p_relative">
-                <div class="image-layer p_absolute" style="background-image:url(assets/images/banner/banner-6.jpg)"></div>
+                <div class="image-layer p_absolute" style="background-image:url({{ asset('assets/images/sliders/slider03.jpeg') }})"></div>
                 <div class="auto-container">
                     <div class="content-box p_relative d_block z_5">
                         <h2 class="p_relative d_iblock fw_bold fs_80 lh_90 mb_15"><span class="slider-text-anim">John F. Kennedy</span></h2>
@@ -290,7 +290,7 @@
                 </div>
             </div>
             <div class="inner-content p_relative d_block">
-                <div class="four-item-carousel owl-carousel owl-theme owl-dots-none nav-style-two">
+                <div class="three-item-carousel owl-carousel owl-theme owl-dots-none nav-style-two">
                     <div class="project-block-one">
                         <div class="inner-box p_relative d_block b_radius_5">
                             <figure class="image-box"><img src="assets/images/project/project-1.jpg" alt=""></figure>
@@ -326,235 +326,6 @@
         </div>
     </section>
     <!-- project-one end -->
-
-
-    <!-- testimonial-two -->
-    <section class="testimonial-two p_relative sec-pad">
-        <div class="pattern-layer">
-            <div class="pattern-1 p_absolute t_0" data-parallax='{"x": 100}' style="background-image: url(assets/images/shape/shape-39.png);"></div>
-            <div class="pattern-2 p_absolute r_0 b_0" data-parallax='{"x": 100}' style="background-image: url(assets/images/shape/shape-40.png);"></div>
-        </div>
-        <div class="auto-container">
-            <div class="sec-title-two p_relative d_block mb_50 centred">
-                <span class="p_relative d_iblock font_family_oxygen fs_15 lh_40 pl_30 pr_30 mb_17">Advisory</span>
-                <h2 class="d_block fs_40 fw_bold font_family_oxygen mb_35">Our Expanded Advisory <br /></h2>
-                <p class="fs_18 font_family_oxygen mb_0">Mandated and experienced in a varied scope of <br />commercial and technical due diligence engagements.</p>
-
-            </div>
-            <div class="three-item-carousel owl-carousel owl-theme owl-nav-none dots-style-one">
-                <div class="testimonial-block-one">
-                    <div class="inner-box p_relative d_block">
-                        <div class="text p_relative d_block b_radius_10 pt_35 pr_40 pb_40 pl_40 mb_30">
-                            <ul class="rating clearfix p_relative d_block mb_15">
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16"><i class="icon-20"></i></li>
-                            </ul>
-                            <p>Focus on private schools with international and local curriculums.</p>
-                        </div>
-                        <div class="author p_relative d_block pl_90 pt_7 pb_11 ml_20">
-                            <figure class="thumb-box p_absolute l_0 t_0 w_70 h_70 b_radius_50"><img src="assets/images/resource/testimonial-1.png" alt=""></figure>
-                            <h4 class="d_block fs_20 lh_30 mb_2">Basem Abu Dagga</h4>
-                            <span class="designation p_relative d_block fs_16 lh_20">Founder</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-block-one">
-                    <div class="inner-box p_relative d_block">
-                        <div class="text p_relative d_block b_radius_10 pt_35 pr_40 pb_40 pl_40 mb_30">
-                            <ul class="rating clearfix p_relative d_block mb_15">
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16"><i class="icon-20"></i></li>
-                            </ul>
-                            <p>Individual schools or / and School groups.</p>
-                        </div>
-                        <div class="author p_relative d_block pl_90 pt_7 pb_11 ml_20">
-                            <figure class="thumb-box p_absolute l_0 t_0 w_70 h_70 b_radius_50"><img src="assets/images/resource/testimonial-1.png" alt=""></figure>
-                            <h4 class="d_block fs_20 lh_30 mb_2">Basem Abu Dagga</h4>
-                            <span class="designation p_relative d_block fs_16 lh_20">Founder</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-block-one">
-                    <div class="inner-box p_relative d_block">
-                        <div class="text p_relative d_block b_radius_10 pt_35 pr_40 pb_40 pl_40 mb_30">
-                            <ul class="rating clearfix p_relative d_block mb_15">
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16"><i class="icon-20"></i></li>
-                            </ul>
-                            <p>Advisory through the lens of a PE / Family Office / Institutional investor.</p>
-                        </div>
-                        <div class="author p_relative d_block pl_90 pt_7 pb_11 ml_20">
-                            <figure class="thumb-box p_absolute l_0 t_0 w_70 h_70 b_radius_50"><img src="assets/images/resource/testimonial-1.png" alt=""></figure>
-                            <h4 class="d_block fs_20 lh_30 mb_2">Basem Abu Dagga</h4>
-                            <span class="designation p_relative d_block fs_16 lh_20">Founder</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-block-one">
-                    <div class="inner-box p_relative d_block">
-                        <div class="text p_relative d_block b_radius_10 pt_35 pr_40 pb_40 pl_40 mb_30">
-                            <ul class="rating clearfix p_relative d_block mb_15">
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16"><i class="icon-20"></i></li>
-                            </ul>
-                            <p>Early years and K-12 space.</p>
-                        </div>
-                        <div class="author p_relative d_block pl_90 pt_7 pb_11 ml_20">
-                            <figure class="thumb-box p_absolute l_0 t_0 w_70 h_70 b_radius_50"><img src="assets/images/resource/testimonial-1.png" alt=""></figure>
-                            <h4 class="d_block fs_20 lh_30 mb_2">Basem Abu Dagga</h4>
-                            <span class="designation p_relative d_block fs_16 lh_20">Founder</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-block-one">
-                    <div class="inner-box p_relative d_block">
-                        <div class="text p_relative d_block b_radius_10 pt_35 pr_40 pb_40 pl_40 mb_30">
-                            <ul class="rating clearfix p_relative d_block mb_15">
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16"><i class="icon-20"></i></li>
-                            </ul>
-                            <p>Brown field - operational schools and greenfield school projects.</p>
-                        </div>
-                        <div class="author p_relative d_block pl_90 pt_7 pb_11 ml_20">
-                            <figure class="thumb-box p_absolute l_0 t_0 w_70 h_70 b_radius_50"><img src="assets/images/resource/testimonial-1.png" alt=""></figure>
-                            <h4 class="d_block fs_20 lh_30 mb_2">Basem Abu Dagga</h4>
-                            <span class="designation p_relative d_block fs_16 lh_20">Founder</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-block-one">
-                    <div class="inner-box p_relative d_block">
-                        <div class="text p_relative d_block b_radius_10 pt_35 pr_40 pb_40 pl_40 mb_30">
-                            <ul class="rating clearfix p_relative d_block mb_15">
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16"><i class="icon-20"></i></li>
-                            </ul>
-                            <p>At various stages whether advanced or early levels of activities.</p>
-                        </div>
-                        <div class="author p_relative d_block pl_90 pt_7 pb_11 ml_20">
-                            <figure class="thumb-box p_absolute l_0 t_0 w_70 h_70 b_radius_50"><img src="assets/images/resource/testimonial-1.png" alt=""></figure>
-                            <h4 class="d_block fs_20 lh_30 mb_2">Basem Abu Dagga</h4>
-                            <span class="designation p_relative d_block fs_16 lh_20">Founder</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-block-one">
-                    <div class="inner-box p_relative d_block">
-                        <div class="text p_relative d_block b_radius_10 pt_35 pr_40 pb_40 pl_40 mb_30">
-                            <ul class="rating clearfix p_relative d_block mb_15">
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16"><i class="icon-20"></i></li>
-                            </ul>
-                            <p>Technical, academic and commercial due diligence deep dives.</p>
-                        </div>
-                        <div class="author p_relative d_block pl_90 pt_7 pb_11 ml_20">
-                            <figure class="thumb-box p_absolute l_0 t_0 w_70 h_70 b_radius_50"><img src="assets/images/resource/testimonial-1.png" alt=""></figure>
-                            <h4 class="d_block fs_20 lh_30 mb_2">Basem Abu Dagga</h4>
-                            <span class="designation p_relative d_block fs_16 lh_20">Founder</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-block-one">
-                    <div class="inner-box p_relative d_block">
-                        <div class="text p_relative d_block b_radius_10 pt_35 pr_40 pb_40 pl_40 mb_30">
-                            <ul class="rating clearfix p_relative d_block mb_15">
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16"><i class="icon-20"></i></li>
-                            </ul>
-                            <p>Growth, merger, post-merger and turnaround experience in local, international and hybrid school systems.</p>
-                        </div>
-                        <div class="author p_relative d_block pl_90 pt_7 pb_11 ml_20">
-                            <figure class="thumb-box p_absolute l_0 t_0 w_70 h_70 b_radius_50"><img src="assets/images/resource/testimonial-1.png" alt=""></figure>
-                            <h4 class="d_block fs_20 lh_30 mb_2">Basem Abu Dagga</h4>
-                            <span class="designation p_relative d_block fs_16 lh_20">Founder</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-block-one">
-                    <div class="inner-box p_relative d_block">
-                        <div class="text p_relative d_block b_radius_10 pt_35 pr_40 pb_40 pl_40 mb_30">
-                            <ul class="rating clearfix p_relative d_block mb_15">
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16"><i class="icon-20"></i></li>
-                            </ul>
-                            <p>Inspection and school improvement expertise from a regulator perspective.</p>
-                        </div>
-                        <div class="author p_relative d_block pl_90 pt_7 pb_11 ml_20">
-                            <figure class="thumb-box p_absolute l_0 t_0 w_70 h_70 b_radius_50"><img src="assets/images/resource/testimonial-1.png" alt=""></figure>
-                            <h4 class="d_block fs_20 lh_30 mb_2">Basem Abu Dagga</h4>
-                            <span class="designation p_relative d_block fs_16 lh_20">Founder</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-block-one">
-                    <div class="inner-box p_relative d_block">
-                        <div class="text p_relative d_block b_radius_10 pt_35 pr_40 pb_40 pl_40 mb_30">
-                            <ul class="rating clearfix p_relative d_block mb_15">
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16"><i class="icon-20"></i></li>
-                            </ul>
-                            <p>100-day plans and execution strategies post-merger.</p>
-                        </div>
-                        <div class="author p_relative d_block pl_90 pt_7 pb_11 ml_20">
-                            <figure class="thumb-box p_absolute l_0 t_0 w_70 h_70 b_radius_50"><img src="assets/images/resource/testimonial-1.png" alt=""></figure>
-                            <h4 class="d_block fs_20 lh_30 mb_2">Basem Abu Dagga</h4>
-                            <span class="designation p_relative d_block fs_16 lh_20">Founder</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-block-one">
-                    <div class="inner-box p_relative d_block">
-                        <div class="text p_relative d_block b_radius_10 pt_35 pr_40 pb_40 pl_40 mb_30">
-                            <ul class="rating clearfix p_relative d_block mb_15">
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16 mr_5"><i class="icon-20"></i></li>
-                                <li class="p_relative d_iblock pull-left fs_16"><i class="icon-20"></i></li>
-                            </ul>
-                            <p>Management team and SLT evaluation and human capital assessments / management.</p>
-                        </div>
-                        <div class="author p_relative d_block pl_90 pt_7 pb_11 ml_20">
-                            <figure class="thumb-box p_absolute l_0 t_0 w_70 h_70 b_radius_50"><img src="assets/images/resource/testimonial-1.png" alt=""></figure>
-                            <h4 class="d_block fs_20 lh_30 mb_2">Basem Abu Dagga</h4>
-                            <span class="designation p_relative d_block fs_16 lh_20">Founder</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- testimonial-one -->
 
 
     <!-- cta-two -->

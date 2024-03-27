@@ -54,7 +54,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 team-block">
                     <div class="team-block-five wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box p_relative d_block pr_45 mb_45">
-                            <figure class="image-box p_relative d_block"><img src="{{ asset('assets/images/resource/chooseus-7.jpg') }}" alt=""></figure>
+                            <figure class="image-box p_relative d_block"><img src="{{ asset('assets/images/team/basem.jpeg') }}" alt=""></figure>
                             <div class="lower-content p_absolute r_0 b_45 b_shadow_6 pl_25 pt_13 pr_25 pb_15 z_1 tran_5">
                                 <h4 class="d_block fs_20 lh_30 mb_2 tran_5"><a href="{{ route('pages.teams.basem-abu-dagga') }}" class="d_iblock color_black">Basem Abu Dagga</a></h4>
                                 <span class="designation p_relative d_block fs_16 lh_20 font_family_poppins tran_5">Founder And Senior Investment Advisor</span>
@@ -92,7 +92,7 @@
                         <div class="inner-box p_relative d_block pr_45 mb_45">
                             <figure class="image-box p_relative d_block"><img src="{{ asset('assets/images/resource/chooseus-7.jpg') }}" alt=""></figure>
                             <div class="lower-content p_absolute r_0 b_45 b_shadow_6 pl_25 pt_13 pr_25 pb_15 z_1 tran_5">
-                                <h4 class="d_block fs_20 lh_30 mb_2 tran_5"><a href="{{ route('pages.teams.hana-abu-samra') }}" class="d_iblock color_black">Hassan Kalakeche</a></h4>
+                                <h4 class="d_block fs_20 lh_30 mb_2 tran_5"><a href="javascript:;" class="d_iblock color_black">Hassan Kalakeche</a></h4>
                                 <span class="designation p_relative d_block fs_16 lh_20 font_family_poppins tran_5">CEO / COO GEMS</span>
                                 <ul class="social-links clearfix p_absolute l_25 b_14 tran_5">
                                     <li class="p_relative d_iblock pull-left mr_25"><a href="javascript:;" class="d_iblock fs_15"><i class="fab fa-facebook-f"></i></a></li>
@@ -110,7 +110,7 @@
                         <div class="inner-box p_relative d_block pr_45 mb_45">
                             <figure class="image-box p_relative d_block"><img src="{{ asset('assets/images/resource/chooseus-7.jpg') }}" alt=""></figure>
                             <div class="lower-content p_absolute r_0 b_45 b_shadow_6 pl_25 pt_13 pr_25 pb_15 z_1 tran_5">
-                                <h4 class="d_block fs_20 lh_30 mb_2 tran_5"><a href="{{ route('pages.teams.hana-abu-samra') }}" class="d_iblock color_black">Georges Chebli, PhD</a></h4>
+                                <h4 class="d_block fs_20 lh_30 mb_2 tran_5"><a href="javascript:;" class="d_iblock color_black">Georges Chebli, PhD</a></h4>
                                 <span class="designation p_relative d_block fs_16 lh_20 font_family_poppins tran_5">Head of properties and infra-GEMS MENASA KSA</span>
                                 <ul class="social-links clearfix p_absolute l_25 b_14 tran_5">
                                     <li class="p_relative d_iblock pull-left mr_25"><a href="javascript:;" class="d_iblock fs_15"><i class="fab fa-facebook-f"></i></a></li>
@@ -128,7 +128,7 @@
                         <div class="inner-box p_relative d_block pr_45 mb_45">
                             <figure class="image-box p_relative d_block"><img src="{{ asset('assets/images/resource/chooseus-7.jpg') }}" alt=""></figure>
                             <div class="lower-content p_absolute r_0 b_45 b_shadow_6 pl_25 pt_13 pr_25 pb_15 z_1 tran_5">
-                                <h4 class="d_block fs_20 lh_30 mb_2 tran_5"><a href="{{ route('pages.teams.hana-abu-samra') }}" class="d_iblock color_black">Ahmad Rahl, PhD</a></h4>
+                                <h4 class="d_block fs_20 lh_30 mb_2 tran_5"><a href="javascript:;" class="d_iblock color_black">Ahmad Rahl, PhD</a></h4>
                                 <span class="designation p_relative d_block fs_16 lh_20 font_family_poppins tran_5">Senior Manager</span>
                                 <ul class="social-links clearfix p_absolute l_25 b_14 tran_5">
                                     <li class="p_relative d_iblock pull-left mr_25"><a href="javascript:;" class="d_iblock fs_15"><i class="fab fa-facebook-f"></i></a></li>
@@ -146,7 +146,7 @@
                         <div class="inner-box p_relative d_block pr_45 mb_45">
                             <figure class="image-box p_relative d_block"><img src="{{ asset('assets/images/resource/chooseus-7.jpg') }}" alt=""></figure>
                             <div class="lower-content p_absolute r_0 b_45 b_shadow_6 pl_25 pt_13 pr_25 pb_15 z_1 tran_5">
-                                <h4 class="d_block fs_20 lh_30 mb_2 tran_5"><a href="{{ route('pages.teams.hana-abu-samra') }}" class="d_iblock color_black">Souzan Salibi Hashem</a></h4>
+                                <h4 class="d_block fs_20 lh_30 mb_2 tran_5"><a href="javascript:;" class="d_iblock color_black">Souzan Salibi Hashem</a></h4>
                                 <span class="designation p_relative d_block fs_16 lh_20 font_family_poppins tran_5">Chief Education</span>
                                 <ul class="social-links clearfix p_absolute l_25 b_14 tran_5">
                                     <li class="p_relative d_iblock pull-left mr_25"><a href="javascript:;" class="d_iblock fs_15"><i class="fab fa-facebook-f"></i></a></li>

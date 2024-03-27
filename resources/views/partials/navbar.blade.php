@@ -5,8 +5,8 @@
     <div class="header-lower">
         <div class="auto-container">
             <div class="outer-box">
-                <div class="logo-box">
-                    <figure class="logo"><a href="javascript:;"><img src="assets/images/logo.png" alt=""></a></figure>
+                <div class="logo-box py-0">
+                    <figure class="logo"><a href="{{ route('pages.home') }}"><img src="{{ asset('assets/images/learningCurveLogo.jpeg') }}" alt="Learning Curve"></a></figure>
                 </div>
                 <div class="menu-area clearfix">
                     <!--Mobile Navigation Toggler-->

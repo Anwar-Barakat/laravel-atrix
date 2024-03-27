@@ -297,7 +297,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 team-block">
                     <div class="team-block-five wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box p_relative d_block pr_45 mb_45">
-                            <figure class="image-box p_relative d_block"><img src="{{ asset('assets/images/resource/chooseus-7.jpg') }}" alt=""></figure>
+                            <figure class="image-box p_relative d_block"><img src="{{ asset('assets/images/team/basem.jpeg') }}" alt=""></figure>
                             <div class="lower-content p_absolute r_0 b_45 b_shadow_6 pl_25 pt_13 pr_25 pb_15 z_1 tran_5">
                                 <h4 class="d_block fs_20 lh_30 mb_2 tran_5"><a href="{{ route('pages.teams.basem-abu-dagga') }}" class="d_iblock color_black">Basem Abu Dagga</a></h4>
                                 <span class="designation p_relative d_block fs_16 lh_20 font_family_poppins tran_5">Founder And Senior Investment Advisor</span>

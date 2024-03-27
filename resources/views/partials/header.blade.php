@@ -1,6 +1,6 @@
     <!-- Fav Icon -->
-    <link rel="icon" href="{{ asset('assets/images/favicon-11.ico') }}" type="image/x-icon">
-
+    <link rel="shortcut icon" href="{{ asset('assets/images/favicon.ico') }}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('assets/images/favicon.ico') }}" type="image/x-icon">
     <!-- Stylesheets -->
     <link href="{{ asset('assets/css/font-awesome-all.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/flaticon.css') }}" rel="stylesheet">
