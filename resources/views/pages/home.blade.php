@@ -612,7 +612,6 @@
                                     <li class="p_relative d_iblock float_left fs_16">{{ Carbon\Carbon::parse($article->created_at)->format('M d Y') }}</li>
                                 </ul>
                                 <h4 class="d_block fs_20 lh_30 mb_15"><a href="{{ route('articles.comments.index',['article'=>$article]) }}">{{ $article->title }}</a></h4>
-                                <p class="d_block mb_20">{{ Str::limit($article->content, 50) . '...' }}</p>
                                 <div class="btn-box">
                                     <a href="{{ route('articles.comments.index',['article'=>$article]) }}" class="theme-btn theme-btn-two"><span data-text="Learn More">Learn More</span></a>
                                 </div>

@@ -21,7 +21,7 @@
 
 
         <!-- preloader -->
-        @include('partials.preloader')
+        {{-- @include('partials.preloader') --}}
         <!-- preloader end -->
 
 
